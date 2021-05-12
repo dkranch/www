@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Steve's Life List"
-subtitle: A bit about me
+subtitle: The things I want to do
 ---
 
 This is a list of things that I'd accomplish before I die.
@@ -20,6 +20,8 @@ This is a list of things that I'd accomplish before I die.
 - See the Great Wall of China in person
 - Travel to Katmandu
 - Travel to Japan
+- Ski in Japan
+- Visit Egypt
 - Start a scholarship fund
 - Write a fictional novel
 - Earn an MBA

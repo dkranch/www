@@ -14,8 +14,9 @@ author: Steve Jones
 # --- List of links in the navigation bar --- #
 
 navbar-links:
+  List List: "lifelist"
+  Autos: "autos"
   About Me: "aboutme"
-  List List: "lifelistSteve"
 
 # --- Logo --- #
 
