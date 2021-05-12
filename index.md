@@ -17,4 +17,4 @@ A few items I've put on this site:
 
 - [A Trip up Gray's Peak](https://www.dkranch.net/2001-08-12-grays/)
 - [My Life List](/lifelistSteve)
-- [Cars I've Owned]()
+- [Cars I've Owned](/autos)

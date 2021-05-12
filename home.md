@@ -6,7 +6,7 @@ subtitle: Life on a ranch in Colorado
 
 This is the personal site of Steve Jones, husband, father, coach, data professional, and Colorado resident.
 
-I have a few interesting links from my life.
+I have a few interesting links from my life below.
 
 - [My blog](http://blog.dkranch.net)
 - My pictures at [Instagram](https://www.instagram.com/way0utwest/)
