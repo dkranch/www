@@ -6,20 +6,27 @@ subtitle: The fun things I've had the opportunity to drive around
 
 I love cars, and this page is mostly about cars. However, I've started to have other vehicles over time, so I added a section for those. These are vehicles my wife or I have owned and driven around. I'm leaving off kid vehicles.
 
+## Current Cars
+
+In use now (repeated below):
+28. 2012 BMW X5 35i (E70) - I wanted a luxury SUV after the Suburban. I spent 3-4 months looking and got this. The most expensive car I bought, and I slightly regret it, but it's fun to drive.
+29. 2020  Subaru Crosstrek - Tia wanted something to get her through the snow, and I got this for her. It's a near little car.
+25. 2011 Dodge 3500 - The diesel my wife wanted, bought new, and put on about 40,000 miles in 10 years.
+26. 2001 Chevy Suburban - We bought this with 101k miles for $6500 and at last check we'd owned it for 15 years, driven it all over the West, and it has 230k miles. The White Whale might be the best car I've owned.
 ## Cars
 
 These are the autors I've used for transporting myself around, or my wife has. We've not usually shared cars, though we both drive each others. The list is in no particular order. It used to be newest to oldest, but that's too hard to recreate.
 
 1. 2004 Dodge Ram 2500 - Tia's hemi that couldn't handle the load.
 2. 2004 Honda Odessey EXL - The last minivan we owned and the only lease.
-3. 2003 Dodge Durango SXT - Tia's main drive.
-4. 2001 Isuzu Trooper LS - This is my third Trooper and I still enjoy it. I miss the sunroof I had in the last one, but this one runs, so that's a plus.
-5. 1987 BMW 528e - My wife's car. She's had this for 10 years and loves it. Slowly over the years I've given her a few gifts to try and keep this one going. At present, we are debating getting rid of it, but I hate to since it's a cheap to own and nice to have 3rd car.
-6. 2001 Dodge Grand Caravan - We had to when Kendall was born. With 5 in the family and trips to take, the space is really needed and used.
-7. 2000 GMC Yukon XL - Nice truck, never drove it.
-8. 1993 Isuzu Trooper LS - This is my second Trooper and I really enjoy it. I've had it for 4 years and it's served me well, though in early 2002, it required quite a bit of work.
-9. 1970s Pontiac station wagon of some sort
-10. 1990 GMC Surburban - I love this. Totaled by an Expedition.
+3. 2003 Dodge Durango SXT - an SUV that she enjoyed, but couldn't tow enough.
+4. 2001 Isuzu Trooper LS - This was my third Trooper and I still enjoy it. I miss the sunroof I had in the last one, but this one runs, so that's a plus.
+5. 1987 BMW 528e - The car my wife drove when I met her. She had this for 10 years and loves it. Slowly over the years I've given her a few gifts to try and keep this one going. At present, we are debating getting rid of it, but I hate to since it's a cheap to own and nice to have 3rd car.
+6. 2001 Dodge Grand Caravan - We had to get one when Kendall was born. With 5 in the family and trips to take, the space is really needed and used.
+7. 2000 GMC Yukon XL - Nice truck, never drove it beyond a few minor errand trips or some road trips. Tia liked it, the kids loved it with screens in back. It was an indulgance and we sold it fairly quickly.
+8. 1993 Isuzu Trooper LS - This was my second Trooper and I really enjoyed it. I had it for 4 years and it served me well, though in early 2002, it required quite a bit of work.
+9. 1970s Pontiac station wagon of some sort. Cheapest car, like $450, and it ran well for six months.
+10. 1990 GMC Surburban - I loved this. Totaled by an Expedition.
 11. 1987 Dodge Caravan - My beater, old, ran well, and pulled our 19' boat.
 12. Acura Integra, 1992 I think.
 13. 1992 Mercedes 240D
