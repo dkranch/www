@@ -4,7 +4,7 @@ title: "Life Lists"
 subtitle: The things to do before you die
 ---
 
-A life list is an interesting thing. I've known about bucket lists, even before [the movie](https://www.imdb.com/title/tt0825232/), and I've thought about them, but I got inspired by Ted Leonsis. 
+A life list is an interesting thing. I've known about bucket lists, even before [the movie](https://www.imdb.com/title/tt0825232/), and I've thought about them, but I got inspired by Ted Leonsis. I've also enjoyed watching my friend, Brent Ozar, and his [epic life quest](https://ozar.me/quest/)
 
 In case you just want the lists:
 
