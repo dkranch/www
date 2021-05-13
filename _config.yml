@@ -16,6 +16,7 @@ author: Steve Jones
 navbar-links:
   List List: "lifelist"
   Autos: "autos"
+  Projects: "projects"
   About Me: "aboutme"
 
 # --- Logo --- #
