@@ -42,7 +42,6 @@ Things I'd like to do, but in no particular order.
 - Perform a major repair or renovation on my house with only my family.
 - Write a software application that someone else uses. For free or for profit.
 - Attend a fantasy baseball camp and play for a week.
-- Play baseball as an adult. I always loved this game and dropped it in high school. I wish I would have kept it up.
 - Have lunch with Roger Staubach - He was a hero of mine when I was growing up. Since I have been disappointed in meeting some people (that were famous) in my life, I am not sure about this one, but I think I would like to meet him.
 
 ## The Completed List
@@ -74,6 +73,7 @@ Things I'd like to do, but in no particular order.
 - Acquire $1 million in assets (2014) - Not sure when I crossed over, but between investments and real estate, I made it.
 - Make a difference in someone's life outside my family - I did two of these, raising money for sick kids. Details not important, but both were fundraisers I put on and raised thousands of dollars.
 - Run every day for a year - I did this and kept going. As of 2021, I am #321 on the [retired streak list](https://www.runeveryday.com/men_retired.php) with 1564 days.
+- Play baseball as an adult. I did this for a decade, from ages 38-48. I missed parts of different seasons for injuries and finally stopped when I had my ACL replaced and couldn't play. I was already getting too old.
 
 ## <a name="retired">The Retired ToDo List</a>
 
