@@ -28,14 +28,20 @@ Once this was done, it was time to put on glue. The easy way for me was to put a
 
 ![glue everything](/assets/img/wood/20200101_144721.jpg)
 
-From here, I then pick up each one and spread the glue.
+From here, I then pick up each one and spread the glue. I bought a bunch of cheap paintbrushes that are good here. I got them from Harbor Frieght and just toss them after a project.
 
-![sanding](/assets/img/wood/20200101_144737.jpg)
+![spreading glue](/assets/img/wood/20200101_144737.jpg)
 
 This then sets in the clamps overnight. It's good to wipe off clue where you can, and I used parchment paper to limit the mess on clamps.
 
+![Clamping everything together](/assets/img/wood/20200101_145658.jpg)
+
+The next day I went out and pulled off the clamps. Things looked pretty good here, and I then started standing things smooth.
+
 ![sanding](/assets/img/wood/cutting_a.png)
 
-
+After things were sanding, I wiped off the mess and started finishing. I had a salad bowl oil finish, and I wiped it on. Once I had this done, I set the board on a few nails that lifted it up. I covered it with a box to reduce dust and let us sit for a few hours. I repeated this a few times.
 
 ![finishing with oil](/assets/img/wood/cutting_b.png)
+
+The board came out well.
