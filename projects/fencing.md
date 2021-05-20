@@ -1,4 +1,9 @@
- # Fencing in Chenango
+ ---
+layout: page
+title: "Fence Projects"
+subtitle: Closing in our property
+---
+# Fencing in Chenango
 
  Two sections in here
  - [Old Fence](#old)
