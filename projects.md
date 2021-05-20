@@ -8,6 +8,12 @@ subtitle: Various Things I've worked on
 
 Various things we've assembled, paid for, or made changes to in our lives.
 
-[The Failed Barn Project](/projects/barn1/) - Our first attempt at a building.
+- [The Failed Barn Project](/projects/barn1/) - Our first attempt at a building.
+- [We built a barn](/projects/barn2/) - Not us, but we paid for someone to build. I guess we did some work.
+- [Fencing](/projects/fencing/) - First big fence project
 
-[We built a barn](/projects/barn2/) - Not us, but we paid for someone to build. I guess we did some work.
+## Wood
+
+Some things I've done with wood.
+
+- [Cutting Board]()
