@@ -9,7 +9,6 @@ Cutting boards are fairly simple projects, and they can be fun. I've done a few,
 - [Woodcraft Supplies](#woodcraft)
 - [Milling and Cutting Myself](#first)
 
-
 ## <a name="woodcraft">Woodcraft Supplies Board
 
 I wanted to tackle a board with a little free time, and since I wandered into Woodcraft one day, I decided to get some supplies from them and see how it went.
@@ -36,7 +35,11 @@ This then sets in the clamps overnight. It's good to wipe off clue where you can
 
 ![Clamping everything together](/assets/img/wood/20200101_145658.jpg)
 
-The next day I went out and pulled off the clamps. Things looked pretty good here, and I then started standing things smooth.
+The next day I went out and pulled off the clamps. Things looked pretty good here, and I then started finishing.
+
+First, a few router passes to knock off edges.
+
+Then time to sand things smooth. First a couple passes in the planer, then hand sanding (with a palm tool).
 
 ![sanding](/assets/img/wood/cutting_a.png)
 
@@ -44,4 +47,16 @@ After things were sanding, I wiped off the mess and started finishing. I had a s
 
 ![finishing with oil](/assets/img/wood/cutting_b.png)
 
-The board came out well.
+The board came out well. A little thin, but overall, a good look.
+
+## <a name="first">A First Board
+
+I don't have a good recolleciton of this, or many pictures, but here's the board. I know I had some spare maple and purpleheart and just decided to try this.
+
+![The first board](/assets/img/wood/cutting_c.png)
+
+The process was similar, but here I cut strips of material to the same size. I set the table saw to have a thin strip and then ran boards through over and over to get a number of items that same size. I repeated this for both sides, to get uniform pieces.
+
+I then laid them all out on the clamps as I did above for the Woodcraft board. Of course, I messed things up. I didn't actually realize I'd put two maples together until it came out of the clamps.
+
+I finished it the same as above, and it turned out nicely. I use this almost every day.
