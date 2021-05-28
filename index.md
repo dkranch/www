@@ -12,6 +12,7 @@ I have a few interesting links from my life below.
 - My pictures at [Instagram](https://www.instagram.com/way0utwest/)
 - The nonsense I post at [Twitter](https://twitter.com/way0utwest)
 - Professional profile at [LinkedIn](https://www.linkedin.com/in/way0utwest/)
+- Professional blog: [Voice of the DBA](https://voiceofthedba.com/)
 
 A few items I've put on this site:
 
