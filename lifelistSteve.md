@@ -4,11 +4,19 @@ title: "Steve's Life List"
 subtitle: The things I want to do
 ---
 
-This is a list of things that I'd accomplish before I die. I have an [active list](#active) below and also a [retired list](#retired) for those items I used to think about but on which I've changed my mind.
+This is a list of things that I'd accomplish before I die. I have an [active list](#active) below and also a [retired list](#retired) for those items I used to think about but on which I've changed my mind. I also have the [completed list](#completed).
 
 ## <a name="active">The Active ToDo List</a>
 
-Things I'd like to do, but in no particular order.
+Things I'd like to do, but in no particular order. So far I have these sections:
+
+- Family
+- Travel
+- Food
+- Misc
+- Craftsmanship
+- Posessions
+- Physical
 
 ### Family
 
@@ -86,38 +94,62 @@ I worry less about things as I age, but still a few from my younger years. Can't
 - Attend a fantasy baseball camp and play for a week.
 
 
-## The Completed List
+## <a name="completed">The Completed List</a>
+
+These are the items that have been knocked off.
+
+### Family
 
 - Fall in love and get married (May 23, 1998) - I have a lovely wife whom I love more today than the day we married.
 - Have a child (June 1992, November 1998, May 2001) - I have three great children, Kyle, Delaney, and Kendall. Hence the inspiration for the domain
+- Own a dog as a adult	Spring 1994	We had a doberman for a few weeks when I was in high school, but then got rid of it. When my wife and I were dating we got a Great Dane and now have two.
+
+### Misc
+- Earn a college degree	- Completed May 1989. BA in economics from the University of Virginia.
+- Publish an article	Spring 1999	I published my first article in SQL Server Update - a UK technical journal in the Spring of 1999.
+- Learn to ride a motorcycle	Fall 1991	I had one in San Diego and commuted with it for eight months.
 - Write a non-fiction book (September 2001) - Published (as co-author), SQL Server 2000 Design Study Guide
 - Publish a book (Summer 2002) - Published The Best of SQL Server Central.com 2002 in the summer of 2002
+- Fly first class on an airplane - Jan 1999 - My first time was for an interview in Colorado. Since then, it happens often. Or at least, I upgrade to business about every 3rd or 4th trip.
+- Write a poem -1983. Wrote a lot in high school and college.
+
+### Physical
+
 - Climb to the top of a mountain - 14000 ft minimum. - August 15, 2002	Hiked to the top of Gray's Peak in Colorado.
 - Complete a marathon - March 1987 Shamrock marathon in Virginia, March 1987.
 - Complete a triathlon - September 1997	Sandman triathlon, September 1997.
-- Fly first class on an airplane - Jan 1999 -My first time was for an interview in Colorado.
-- Learn to play an entire song on the guitar - Circa 1984	Completed this one in high school
-- Play in a band	1984	Completed this one in high school. I actually got paid to perform a few times.
-- Earn a college degree	Completed May 1989	BA in economics from the University of Virginia.
-- Publish an article	Spring 1999	I published my first article in SQL Server Update - a UK technical journal in the Spring of 1999.
-- Learn to ride a motorcycle	Fall 1991	I had one in San Diego and commuted with it for eight months.
 - Scuba dive to 100 ft.	October 1991	Completed in San Diego, La Jolla cove in October 1991.
-- Travel to Hawaii	March 1995.	Flew there for 2 weeks on a vacation
-- Own a dog as a adult	Spring 1994	We had a doberman for a few weeks when I was in high school, but then got rid of it. When my wife and I were dating we got a Great Dane and now have two.
+- Run every day for a year - I did this and kept going. As of 2021, I am #321 on the [retired streak list](https://www.runeveryday.com/men_retired.php) with 1564 days.
+- Play baseball as an adult. I did this for a decade, from ages 38-48. I missed parts of different seasons for injuries and finally stopped when I had my ACL replaced and couldn't play. I was already getting too old.
+
+### Career
+
 - Earn $100,000 salary - 2000, Working for a startup, I got up to $110,000
+- Start a business - Did this with partners, at SQLServerCentral.com. Ended up selling it after a few years.
+
+### Craftsmanship
+
+- Learn to play an entire song on the guitar - Circa 1984	Completed this one in high school
+- Play in a band - 1984-ish. Completed this one in high school. I actually got paid to perform a few times.
+
+### Travel
+
+- Travel to Hawaii	March 1995.	Flew there for 2 weeks on a vacation
 - See a pro Football game - 1993. Saw Chargers in their miracle run to the Superbowl and a Monday night Raiders/Broncos (and a few more).
 - See a pro Basketball game - March 2001. Saw Knicks play in 2001 for the first time.
 - See a pro Baseball game - Various	Seen quite a few. Rockies in CO, Yankees, Padres, and Orioles at home.
 - See a pro Hockey game - March 1999. Saw an Avalanche game in early 1999 with clients for my company. At the old stadium in Denver that they demolished a few years later
-- Own a house - Summer 1992	I have owned quite a few. Bought one right after college and have owned one ever since.
-- Write a poem -1983. Wrote a lot in high school and college.
 - Go on a cruise - January 2001. On Carnival. Just a 3 day to the Bahamas and not that great. Not sure if I will go on another one.
+- Make a difference in someone's life outside my family - I did two of these, raising money for sick kids. Details not important, but both were fundraisers I put on and raised thousands of dollars.
+- Drive through the Florida Keys from Miami to Key West - June 2021, completed with my wife. A fun trip.
+- Watch the subset in Key West - June 2021
+
+### Posessions
+
+- Own a house - Summer 1992	I have owned quite a few. Bought one right after college and have owned one ever since.
 - Bought a Porsche (A partial completion January 2003) - Got a 914 Targa. Finally got a 1988 911 Targa in Apr 2007.
 - Acquire $1 million in assets (2014) - Not sure when I crossed over, but between investments and real estate, I made it.
-- Make a difference in someone's life outside my family - I did two of these, raising money for sick kids. Details not important, but both were fundraisers I put on and raised thousands of dollars.
-- Run every day for a year - I did this and kept going. As of 2021, I am #321 on the [retired streak list](https://www.runeveryday.com/men_retired.php) with 1564 days.
-- Play baseball as an adult. I did this for a decade, from ages 38-48. I missed parts of different seasons for injuries and finally stopped when I had my ACL replaced and couldn't play. I was already getting too old.
-- Drive through the Florida Keys from Miami to Key West - June 2021, completed with my wife. A fun trip.
+
 ## <a name="retired">The Retired ToDo List</a>
 
 Items that I no longer am interested in.
