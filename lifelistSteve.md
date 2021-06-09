@@ -12,9 +12,14 @@ Things I'd like to do, but in no particular order.
 
 ### Family
 
+Family is an important part of my life. I've completed lots of this stuff, but here are a few more:
+
 - Have a 25 yr marriage celebration with family and friends
 - See at least one of my kids have a commitment ceremony - Hopefully one decides to get married or make a commitment.
+
 ### Travel
+
+I enjoy traveling with my wife and experiencing the world. It's really opened my eyes. 
 
 - Visit all seven continents
     - North America - born here, so this one was easy.
@@ -22,7 +27,7 @@ Things I'd like to do, but in no particular order.
     - South America - ??.
     - Asia - Aug 2016 - India, Oct 2017 - Went to Hong Kong with my wife for a weekend
     - Africa - ??.
-    - Antarctica - ??.
+    - Antarctica - ?? - Not sure here
     - Australia - June 2019
 - Visit Madagascar - Can't explain this one, but I want to go.
 - Visit Katmandu
@@ -64,6 +69,7 @@ I like food and to cook, and these are things I'd like to do. Ugly Delicious has
 - Build a cabinet we use
 - Grow a tree
 - Make a signpost
+
 ### Possessions
 
 I worry less about things as I age, but still a few from my younger years. Can't quite decide what to do here.
