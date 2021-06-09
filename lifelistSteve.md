@@ -10,6 +10,10 @@ This is a list of things that I'd accomplish before I die. I have an [active lis
 
 Things I'd like to do, but in no particular order.
 
+### Family
+- Have a 25 yr marriage celebration with family and friends
+- See at least one of my kids have a commitment ceremony - Hopefully one decides to get married or make a commitment.
+### Travel
 - Visit all seven continents
     - North America - born here, so this one was easy.
     - Europe - Spring 1987.
@@ -24,25 +28,51 @@ Things I'd like to do, but in no particular order.
 - Visit the Great Wall of China in person
 - Visit Egypt
 - Visit Alaska
+- Visit Belize
+- Pet an elephant - Not sure why, but this somewhat falls under travel
+
+### Food
+
+I like food and to cook, and these are things I'd like to do.
+
+- Pizza in Naples
+- Pizza in Tokyo
+- Tacos in Tulum
+- Make a good tortilla - so far, none have been very good
+- Make mole
+
+### Misc
 - Write a fictional novel
 - Work for a charity full-time
 - Teach school for a year
 - Start a scholarship fund
+- Avoid wearing a tie - Last known date, 2/12/2018
+- Have lunch with Roger Staubach - He was a hero of mine when I was growing up. Since I have been disappointed in meeting some people (that were famous) in my life, I am not sure about this one, but I think I would like to meet him.
+
+### Craftsmanship
 - Rebuild a car engine
 - Ride a motorcycle or bicycle across the United States
 - Build a house from scratch - not by myself, but buy land and have a house built or build it myself.
+- Paint a picture
+- Perform a major repair or renovation on my house with only my family.
+- Write a software application that someone else uses. For free or for profit.
+- Build a cabinet we use
+- Grow a tree
+- Make a signpost
+### Possessions
+
+I worry less about things as I age, but still a few from my younger years. Can't quite decide what to do here.
+
 - Own a hot tub
 - Own a swimming pool - the short ones for indoor use  count.
+
+### Physical
 - Climb as far as I can up Mt Everest in two weeks.
 - Climb as far as I can up Mt Fuji.
 - Climb as far as I can up Maccu Piccu - My wife got me interested in this one.
 - Ski in Japan
-- Avoid wearing a tie - Last known date, 2/12/2017
-- Paint a picture
-- Perform a major repair or renovation on my house with only my family.
-- Write a software application that someone else uses. For free or for profit.
 - Attend a fantasy baseball camp and play for a week.
-- Have lunch with Roger Staubach - He was a hero of mine when I was growing up. Since I have been disappointed in meeting some people (that were famous) in my life, I am not sure about this one, but I think I would like to meet him.
+
 
 ## The Completed List
 - Fall in love and get married (May 23, 1998) - I have a lovely wife whom I love more today than the day we married.
@@ -74,7 +104,7 @@ Things I'd like to do, but in no particular order.
 - Make a difference in someone's life outside my family - I did two of these, raising money for sick kids. Details not important, but both were fundraisers I put on and raised thousands of dollars.
 - Run every day for a year - I did this and kept going. As of 2021, I am #321 on the [retired streak list](https://www.runeveryday.com/men_retired.php) with 1564 days.
 - Play baseball as an adult. I did this for a decade, from ages 38-48. I missed parts of different seasons for injuries and finally stopped when I had my ACL replaced and couldn't play. I was already getting too old.
-
+- Drive through the Florida Keys from Miami to Key West - June 2021, completed with my wife. A fun trip.
 ## <a name="retired">The Retired ToDo List</a>
 
 Items that I no longer am interested in.
