@@ -11,9 +11,11 @@ This is a list of things that I'd accomplish before I die. I have an [active lis
 Things I'd like to do, but in no particular order.
 
 ### Family
+
 - Have a 25 yr marriage celebration with family and friends
 - See at least one of my kids have a commitment ceremony - Hopefully one decides to get married or make a commitment.
 ### Travel
+
 - Visit all seven continents
     - North America - born here, so this one was easy.
     - Europe - Spring 1987.
@@ -33,15 +35,17 @@ Things I'd like to do, but in no particular order.
 
 ### Food
 
-I like food and to cook, and these are things I'd like to do.
+I like food and to cook, and these are things I'd like to do. Ugly Delicious has inspired me a bit to be more adventureous.
 
 - Pizza in Naples
 - Pizza in Tokyo
 - Tacos in Tulum
 - Make a good tortilla - so far, none have been very good
 - Make mole
+- Learn to make some fall-off-the bone ribs
 
 ### Misc
+
 - Write a fictional novel
 - Work for a charity full-time
 - Teach school for a year
@@ -50,6 +54,7 @@ I like food and to cook, and these are things I'd like to do.
 - Have lunch with Roger Staubach - He was a hero of mine when I was growing up. Since I have been disappointed in meeting some people (that were famous) in my life, I am not sure about this one, but I think I would like to meet him.
 
 ### Craftsmanship
+
 - Rebuild a car engine
 - Ride a motorcycle or bicycle across the United States
 - Build a house from scratch - not by myself, but buy land and have a house built or build it myself.
@@ -67,6 +72,7 @@ I worry less about things as I age, but still a few from my younger years. Can't
 - Own a swimming pool - the short ones for indoor use  count.
 
 ### Physical
+
 - Climb as far as I can up Mt Everest in two weeks.
 - Climb as far as I can up Mt Fuji.
 - Climb as far as I can up Maccu Piccu - My wife got me interested in this one.
@@ -75,6 +81,7 @@ I worry less about things as I age, but still a few from my younger years. Can't
 
 
 ## The Completed List
+
 - Fall in love and get married (May 23, 1998) - I have a lovely wife whom I love more today than the day we married.
 - Have a child (June 1992, November 1998, May 2001) - I have three great children, Kyle, Delaney, and Kendall. Hence the inspiration for the domain
 - Write a non-fiction book (September 2001) - Published (as co-author), SQL Server 2000 Design Study Guide
