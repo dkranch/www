@@ -4,6 +4,11 @@ title: "Projects"
 subtitle: Various Things I've worked on
 ---
 
+## Cars
+
+Experiences and throughts on cars, trucks, and all sorts of transport.
+
+- [The Colorado Tesla Experience](/projects/tesla/theteslaexperience)
 ## Construction
 
 Various things we've assembled, paid for, or made changes to in our lives.
