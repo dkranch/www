@@ -12,11 +12,11 @@ I'm adding those posts, along with other thoughts, here to document the experien
 The Decision
 - Early thoughts on Tesla
 - Riding in a Tesla
-- I Ordered a Tesla
+- [I Ordered a Tesla](./ordertesla/)
 
 Pre-Purchase
-- [A surprising update](surpriseupdate)
-- [Date Slippage in the Tesla Model Y Order Process](dateslip)
-- [Tracking My Range for a Tesla Model Y Charging Solution](trackrange)
+- [A surprising update](/projects/tesla/surpriseupdate/)
+- [Date Slippage in the Tesla Model Y Order Process](/projects/tesla/dateslip/)
+- [Tracking My Range for a Tesla Model Y Charging Solution](/projects/tesla/trackrange/)
 - The Tesla Ordering Experience
 - 

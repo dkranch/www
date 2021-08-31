@@ -63,11 +63,10 @@ My computation in the sheet is based in the mileage driven. I take that as the a
 
 In Excel, this looks like =+G18-(F18/$H$2) for the 18th row. As a better example, supposed I went 40 miles on a trip, and I had 1 hour to charge before my next trip. I’d end up with these values for my charging columns:
 
-
-    US 110V outlet – 9 hours (red)
-    US 220V/30A plug – .82 hours (red)
-    US 220V/50A – .33 hours (red)
-    Tesla Wall Charger – 0.05 hours (green)
+- US 110V outlet – 9 hours (red)
+- US 220V/30A plug – .82 hours (red)
+- US 220V/50A – .33 hours (red)
+- Tesla Wall Charger – 0.05 hours (green)
 
 The red numbers mean I wouldn’t have recovered my mileage before the next trip. The green numbers mean I wouldn’t. The value tells me how much time I’d need to recover the charge. For the example above, I’d need 9 more hours, 10 total, to recover from a 40 mile trip. For the Tesla Wall Charger (TWC), I’d have recovered with 0.05 hours to spare.
 
