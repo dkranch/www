@@ -10,7 +10,7 @@ This is a companion to a series of posts I've written on getting a Tesla. I'm do
 I'm adding those posts, along with other thoughts, here to document the experience as it occurs. I'm putting these in chronological order, for ease of following the story.
 
 The Decision
-- Early thoughts on Tesla
+- [Early thoughts on Tesla](/projects/tesla/teslathoughts/)
 - [Riding in a Tesla](/projects/tesla/firstride/)
 - [I Ordered a Tesla](/projects/tesla/ordertesla/)
 
