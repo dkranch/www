@@ -9,10 +9,10 @@ I love cars, and this page is mostly about cars. However, I've started to have o
 ## Current Cars
 
 In use now (repeated below):
-28. 2012 BMW X5 35i (E70) - I wanted a luxury SUV after the Suburban. I spent 3-4 months looking and got this. The most expensive car I bought, and I slightly regret it, but it's fun to drive.
+28. [2012 BMW X5 35i (E70)](/thoughts/bmwx5/) - I wanted a luxury SUV after the Suburban. I spent 3-4 months looking and got this. The most expensive car I bought, and I slightly regret it, but it's fun to drive.
 29. 2020  Subaru Crosstrek - Tia wanted something to get her through the snow, and I got this for her. It's a near little car.
 25. 2011 Dodge 3500 - The diesel my wife wanted, bought new, and put on about 40,000 miles in 10 years.
-26. 2001 Chevy Suburban - We bought this with 101k miles for $6500 and at last check we'd owned it for 15 years, driven it all over the West, and it has 230k miles. The White Whale might be the best car I've owned.
+26. [2001 Chevy Suburban](/thoughts/Suburban2001/) - We bought this with 101k miles for $6500 and at last check we'd owned it for 15 years, driven it all over the West, and it has 230k miles. The White Whale might be the best car I've owned.
 ## Cars
 
 These are the autors I've used for transporting myself around, or my wife has. We've not usually shared cars, though we both drive each others. The list is in no particular order. It used to be newest to oldest, but that's too hard to recreate.
