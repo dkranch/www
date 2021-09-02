@@ -58,4 +58,6 @@ I’m certainly excited and ready.
 
 If you want to see a rambling video version of this post, you can see my “I ordered a Tesla” video on My Colorado Tesla Experience Channel. You can see all of these posts by following the Tesla tag.
 
-There is also a video version of this post on My Colorado Tesla Experience Channel. You can see all of these posts by following the Tesla tag.
+There is also [a video version of this post](https://youtu.be/gLLLwyGWepQ) on [My Colorado Tesla Experience Channel](https://www.youtube.com/channel/UC4sRpzz05MCXqxUInjwQ_ew).
+
+Next: [The Tesla Ordering Experience](/projects/tesla/teslaorderexperience/)

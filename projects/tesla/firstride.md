@@ -51,5 +51,4 @@ I tested Autopilot, which worked very well for me in stop and go traffic. I have
 
 Overall, I liked the car, liked the space, and so did my wife. 
 
-
 Next: [I ordered a Tesla](/projects/tesla/ordertesla/)

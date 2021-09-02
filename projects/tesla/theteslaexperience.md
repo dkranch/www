@@ -15,7 +15,11 @@ The Decision
 - [I Ordered a Tesla](/projects/tesla/ordertesla/)
 
 Pre-Purchase
-- [A surprising update](/projects/tesla/surpriseupdate/)
-- [Date Slippage in the Tesla Model Y Order Process](/projects/tesla/dateslip/)
-- [Tracking My Range for a Tesla Model Y Charging Solution](/projects/tesla/trackrange/)
 - [The Tesla Ordering Experience](/projects/tesla/teslaorderexperience/)
+- [Tracking My Range for a Tesla Model Y Charging Solution](/projects/tesla/trackrange/)
+- [Date Slippage in the Tesla Model Y Order Process](/projects/tesla/dateslip/)
+- [A surprising update](/projects/tesla/surpriseupdate/)
+- [Scheduling the Pickup](/projects/tesla/schedule/)
+
+The First Week
+- Picking up the Tesla

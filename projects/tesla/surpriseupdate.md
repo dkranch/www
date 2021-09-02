@@ -16,3 +16,5 @@ However, today I checked and the dates were wider, but closer. I saw this:
 That's exciting. I'm guessing I could get an email anytime in the next day that says "schedule this", but I'm guessing it will be next week. As we may be out of town, I might have to wait two more weeks.
 
 Exciting.
+
+Next: [Scheduling the Pickup](/projects/tesla/schedule/)
