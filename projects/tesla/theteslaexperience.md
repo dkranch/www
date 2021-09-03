@@ -20,7 +20,7 @@ Pre-Purchase
 - [Date Slippage in the Tesla Model Y Order Process](/projects/tesla/dateslip/)
 - [A surprising update](/projects/tesla/surpriseupdate/)
 - [Scheduling the Pickup](/projects/tesla/schedule/)
-- [Tesla Payments]((/projects/tesla/payment/))
+- [Tesla Payments](/projects/tesla/payment/)
 
 The First Week
 - Finding a Checklist
