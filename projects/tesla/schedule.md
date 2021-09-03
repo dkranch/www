@@ -15,4 +15,4 @@ I decided to reach out to the local Tesla store in Littleton, which is where I'd
 
 Tentatively, we ended up scheduling for the 7th at 4pm, and I have my fingers crossed. If that doesn't work out, that's fine. I'll just move to the 13th if the trip takes place.
 
-Next: Picking up the Tesla
+Next: [Tesla Payments]((/projects/tesla/payment/))
