@@ -33,4 +33,4 @@ Overall, this has been a very smooth financing, the best ever. I think one of th
 
 I doubt they will as lots of people are somewhat captive in going to a dealer to get a car, they need financing and often don't have great credit and assets. They also don't think about the optional add-ons and what they mean or the value. Since those things bring some decent profits, I doubt they change, but certainly I dislike the entire process and get used to saying "no", "no", "no" to their offers.
 
-Next: The Pickup Checklist
+Next: [The Pickup Checklist](/projects/tesla/checklist/)

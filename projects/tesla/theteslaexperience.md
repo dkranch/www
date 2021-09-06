@@ -23,5 +23,5 @@ Pre-Purchase
 - [Tesla Payments](/projects/tesla/payment/)
 
 The First Week
-- Finding a Checklist
+- [Finding a Checklist](/projects/tesla/checklist/)
 - Picking up the Tesla
