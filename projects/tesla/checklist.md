@@ -20,4 +20,6 @@ I looked around and found these:
 
 Lots of choices. Ultimately, I got the app, which I'll use, and then I printed out the checklist and will let my wife or son go through that one. We might duplicate some effort, but between 2-3 of us, we should get things checked out.
 
+There is a [video of this post](https://youtu.be/BWCL1JpDClA) on my channel, if you want to watch and listen to me talk about this part of the experience.
+
 Next: Picking Up the Tesla
