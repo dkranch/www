@@ -24,5 +24,5 @@ Pre-Purchase
 
 The First Week
 - [Finding a Checklist](/projects/tesla/checklist/)
-- Picking up the Tesla
+- [Picking up the Tesla](/projects/tesla/pickup/)
 - Initial Accessories
