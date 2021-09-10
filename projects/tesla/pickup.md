@@ -15,9 +15,11 @@ After about 10 minutes, the salesman came back with paperwork and wanted me to a
 
 We were about 5 hours early, so I'm not surprised things weren't complete. The car was at 73% and charging, and he showed us how to get in and left us alone to look around. Time to go to work.
 
+![First view](/assets/img/cars/firstview.jpg)
+
 We ended up using [this checklist](https://github.com/mykeln/teslaprep/blob/master/model_y_checklist.md), both the paper one for me and the mobile one for my son. I made a quick video of the process of inspecting the car. It was hot, and my wife and eldest were patient, but ready to get moving.
 
-There is a [video of this post]() on my channel, if you want to watch and listen to me talk about this part of the experience. Overall, everything looked good. We kept looking closely and testing things, learning about how to turn on various features or check things. My wife ended up turning lights and other features one twice, as we both moved around the car at different speeds and in different directions.
+There is a [video of this post](https://youtu.be/0F4iUvg8Tq0) on my channel, if you want to watch and listen to me talk about this part of the experience. Overall, everything looked good. We kept looking closely and testing things, learning about how to turn on various features or check things. My wife ended up turning lights and other features one twice, as we both moved around the car at different speeds and in different directions.
 
 I don't know I've examined a car as closely as I did for this one, which was interesting to me. In general, I've looked for major issues, not minor things. My son did see the front hood slightly mis-aligned to one side. It's very minor to me, and really, I doubt I'd have noticed if we were'd really looking.
 
