@@ -36,3 +36,5 @@ Then they helped us program keys and phones. I added my wife and son as drivers,
 It was a 45 minute process, mostly because we inspected the car. Programming keys and getting them with their own Tesla accounts was about 5 minutes and then we were off.
 
 Next: [The First Drive](/projects/tesla/dayone/)
+
+If you are thinking of ordering one, I’ve got a referral code. You get 1,000 free Supercharger miles and so do I. Use: [http://ts.la/john92950](http://ts.la/john92950)

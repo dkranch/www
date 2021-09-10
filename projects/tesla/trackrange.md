@@ -89,3 +89,7 @@ There’s another thought. The US Tax code gives a [30% tax credit](https://www.
 As a result, I decided to just by the Tesla Wall Charger. This ended up being US$514.50, and I’ve contacted an electrician to add a new breaker and wire this up. It will be a short wiring run for me, but even if this is a $200 cost, I’ll end up with this being a $500 cost, as the tax credit will cover the install.
 
 I did look at other chargers, and I’ll do a post summarizing what I learned and decided on.
+
+Next: [Date Slippage in the Tesla Model Y Order Process](/projects/tesla/dateslip/)
+
+If you are thinking of ordering one, I’ve got a referral code. You get 1,000 free Supercharger miles and so do I. Use: [http://ts.la/john92950](http://ts.la/john92950)

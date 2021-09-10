@@ -59,3 +59,5 @@ I’m certainly excited and ready.
 If you want to see a rambling video version of this post, you can see my “I ordered a Tesla” video on My Colorado Tesla Experience Channel. You can see all of these posts by following the Tesla tag.
 
 Next: [A surprising update](/projects/tesla/surpriseupdate/)
+
+If you are thinking of ordering one, I’ve got a referral code. You get 1,000 free Supercharger miles and so do I. Use: [http://ts.la/john92950](http://ts.la/john92950)

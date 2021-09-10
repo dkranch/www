@@ -18,3 +18,5 @@ That's exciting. I'm guessing I could get an email anytime in the next day that 
 Exciting.
 
 Next: [Scheduling the Pickup](/projects/tesla/schedule/)
+
+If you are thinking of ordering one, I’ve got a referral code. You get 1,000 free Supercharger miles and so do I. Use: [http://ts.la/john92950](http://ts.la/john92950)

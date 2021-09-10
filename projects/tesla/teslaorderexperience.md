@@ -66,3 +66,5 @@ All in all, this was a smooth process and I look forward to getting my car. If I
 There is also a rambling video version of [this post](https://youtu.be/RVDVmIYjbR4) on [My Colorado Tesla Experience Channel](https://www.youtube.com/channel/UC4sRpzz05MCXqxUInjwQ_ew). 
 
 Next: [Tracking My Range for a Tesla Model Y Charging Solution](/projects/tesla/trackrange/)
+
+If you are thinking of ordering one, I’ve got a referral code. You get 1,000 free Supercharger miles and so do I. Use: [http://ts.la/john92950](http://ts.la/john92950)

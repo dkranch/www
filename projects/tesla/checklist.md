@@ -22,4 +22,6 @@ Lots of choices. Ultimately, I got the app, which I'll use, and then I printed o
 
 There is a [video of this post](https://youtu.be/BWCL1JpDClA) on my channel, if you want to watch and listen to me talk about this part of the experience.
 
-Next: Picking Up the Tesla
+Next: [Picking up the Tesla](/projects/tesla/pickup/)
+
+If you are thinking of ordering one, I’ve got a referral code. You get 1,000 free Supercharger miles and so do I. Use: [http://ts.la/john92950](http://ts.la/john92950)

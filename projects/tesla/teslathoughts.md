@@ -24,3 +24,5 @@ I've also liked the idea of electric. I've seen a few cars over the years, most 
 However, I've thought that at some point many companies would find a way to build a platform and then put bodies on top. I'd have hoped by now we'd be able to buy multiple bodies and quick change them ourselves, but I'm guessing that isn't something many people or companies want to do.
 
 Next: [Riding in a Tesla](/projects/tesla/firstride/)
+
+If you are thinking of ordering one, I’ve got a referral code. You get 1,000 free Supercharger miles and so do I. Use: [http://ts.la/john92950](http://ts.la/john92950)

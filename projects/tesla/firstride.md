@@ -52,3 +52,5 @@ I tested Autopilot, which worked very well for me in stop and go traffic. I have
 Overall, I liked the car, liked the space, and so did my wife. 
 
 Next: [I ordered a Tesla](/projects/tesla/ordertesla/)
+
+If you are thinking of ordering one, I’ve got a referral code. You get 1,000 free Supercharger miles and so do I. Use: [http://ts.la/john92950](http://ts.la/john92950)
