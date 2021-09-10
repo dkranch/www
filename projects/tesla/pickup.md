@@ -35,4 +35,4 @@ Then they helped us program keys and phones. I added my wife and son as drivers,
 
 It was a 45 minute process, mostly because we inspected the car. Programming keys and getting them with their own Tesla accounts was about 5 minutes and then we were off.
 
-Next: Drive One Driving
+Next: [The First Drive](/projects/tesla/dayone/)
