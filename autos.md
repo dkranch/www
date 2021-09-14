@@ -9,8 +9,8 @@ I love cars, and this page is mostly about cars. However, I've started to have o
 ## Current Cars
 
 In use now (repeated below):
+31. 2021 Tesla Model Y - The fastest and best car I've owned.
 28. [2012 BMW X5 35i (E70)](/thoughts/bmwx5/) - I wanted a luxury SUV after the Suburban. I spent 3-4 months looking and got this. The most expensive car I bought, and I slightly regret it, but it's fun to drive.
-29. 2020  Subaru Crosstrek - Tia wanted something to get her through the snow, and I got this for her. It's a near little car.
 25. 2011 Dodge 3500 - The diesel my wife wanted, bought new, and put on about 40,000 miles in 10 years.
 26. [2001 Chevy Suburban](/thoughts/Suburban2001/) - We bought this with 101k miles for $6500 and at last check we'd owned it for 15 years, driven it all over the West, and it has 230k miles. The White Whale might be the best car I've owned.
 ## Cars
@@ -47,14 +47,15 @@ These are the autors I've used for transporting myself around, or my wife has. W
 28. 2012 BMW X5 35i (E70) - I wanted a luxury SUV after the Suburban. I spent 3-4 months looking and got this. The most expensive car I bought, and I slightly regret it, but it's fun to drive.
 29. 2020 Subaru Crosstrek - Tia wanted something to get her through the snow, and I got this for her. It's a near little car.
 30. 2010 Toyota Prius - When she needed a new car, my wife wanted another Prius. Got a good deal and drove over 100k before a kid wrecked it.
-13. 2021 Tesla Model Y - The fastest and best car I've owned.
+31. 2021 Tesla Model Y - The fastest and best car I've owned.
+
 
 
 ## Other Vehicles
 
 I have owned a motorcycle, though I somewhat used to consider that a "car" as I commuted on it. However, since we live on the ranch, I added a few others:
 
-- 1990 Suziki 500 Street motorcycle - My mom hated it, but I commuted in San Diego for almost a year on this bike. Over 1000 miles a month.
+- 1990 Suzuki 500 Street motorcycle - My mom hated it, but I commuted in San Diego for almost a year on this bike. Over 1000 miles a month.
 - 1997 Bayliner 24' - Our first (and only to date) boat. Small cabin and lots of fun.
 - 2015 Lakota LQ Horse Trailer - 4 horse, 13' shortwall, a fun vehicles for us.
 - 2006 Kawasaki 650 Brute Force - Our first ATV, twin cylinder and lots of power. Lots of repair stuff after 5-6 years, but we used it a ton. I'd get another one.
