@@ -16,3 +16,5 @@ I decided to reach out to the local Tesla store in Littleton, which is where I'd
 Tentatively, we ended up scheduling for the 7th at 4pm, and I have my fingers crossed. If that doesn't work out, that's fine. I'll just move to the 13th if the trip takes place.
 
 Next: [Tesla Payments](/projects/tesla/payment/)
+
+If you are thinking of ordering one, I’ve got a referral code. You get 1,000 free Supercharger miles and so do I. Use: [http://ts.la/john92950](http://ts.la/john92950)

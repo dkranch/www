@@ -29,5 +29,9 @@ The First Week
 - [Picking up the Tesla](/projects/tesla/pickup/)
 - [The First Drive](/projects/tesla/dayone/)
 - [Installing Mud Flaps](/projects/tesla/mudflaps/)
-- First Week Charging
+- [First Week Charging](/projects/tesla/chargeone/)
+
+Early Experiences
+- Autopilot and School Zones
 - Initial Accessories
+- 

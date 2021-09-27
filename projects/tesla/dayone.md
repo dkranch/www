@@ -41,6 +41,5 @@ It's fun, exciting, and crazy fast. I really enjoyed my few hours in the car and
 
 There is a [video of this post]() on my channel, if you want to watch and listen to me talk about this part of the experience.
 
-Next: First Charging Experience
+Next: [Mud Flaps](/projects/tesla/mudflaps/)
 
-If you are thinking of ordering one, I’ve got a referral code. You get 1,000 free Supercharger miles and so do I. Use: [http://ts.la/john92950](http://ts.la/john92950)
