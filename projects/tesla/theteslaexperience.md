@@ -32,6 +32,6 @@ The First Week
 - [First Week Charging](/projects/tesla/chargeone/)
 
 Early Experiences
-- Autopilot and School Zones
+- [Autopilot and School Zones](/projects/tesla/schoolzone/)
 - Initial Accessories
 - 

@@ -49,5 +49,5 @@ I think people that would use this car in the city, with overnight charging, cou
 
 There is a [video of this post](https://youtu.be/UCuK5pnP02Q) on my channel, if you want to watch and listen to me talk about this part of the experience.
 
-Next: Making a Few Purchases
+Next: [Autopilot and School Zones](/projects/tesla/schoolzone/)
 
