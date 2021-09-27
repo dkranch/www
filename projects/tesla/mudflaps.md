@@ -52,6 +52,6 @@ That's about it. These then just help prevent your wheels from throwing mud of r
 
 There is [a video of this post](https://youtu.be/1KZMUQG7-OU) that shows some of the install.
 
-Next: A Couple Weeks of Charging
+Next: [A Couple Weeks of Charging](/projects/tesla/chargeone/)
 
 
