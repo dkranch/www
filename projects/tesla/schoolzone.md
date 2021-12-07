@@ -35,5 +35,5 @@ To me, this is one of those reasons why L5 driving likely isn't possible or safe
 
 There is a [video of this post](https://youtu.be/Ug8PlrfXPcM) on my channel, if you want to watch and listen to me talk about this part of the experience.
 
-Next: Initial Accessories
+Next: [Adding a license plate](/projects/tesla/license/)
 
