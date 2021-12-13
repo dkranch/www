@@ -43,7 +43,7 @@ These are the autors I've used for transporting myself around, or my wife has. W
 24. 2010 Ford F250 King Ranch - We owned it only a few months and got rid of it. Far too many issues. Fix or Repair Daily might apply here.
 25. 2011 Dodge 3500 - The diesel my wife wanted, bought new, and put on about 40,000 miles in 10 years.
 26. 2001 Chevy Suburban - We bought this with 101k miles for $6500 and at last check we'd owned it for 15 years, driven it all over the West, and it has 230k miles. The White Whale might be the best car I've owned.
-27. 1998 Porsche 911 Targa - dream car that I owned for about 8 or 9 years. At some point it didn't fit the lifestyle and my messed up knee had me sell this to a friend. Should have kept it :(
+27. 1988 Porsche 911 Targa - dream car that I owned for about 8 or 9 years. At some point it didn't fit the lifestyle and my messed up knee had me sell this to a friend. Should have kept it :(
 28. 2012 BMW X5 35i (E70) - I wanted a luxury SUV after the Suburban. I spent 3-4 months looking and got this. The most expensive car I bought, and I slightly regret it, but it's fun to drive.
 29. 2020 Subaru Crosstrek - Tia wanted something to get her through the snow, and I got this for her. It's a near little car.
 30. 2010 Toyota Prius - When she needed a new car, my wife wanted another Prius. Got a good deal and drove over 100k before a kid wrecked it.
