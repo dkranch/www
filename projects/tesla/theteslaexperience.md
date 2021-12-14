@@ -34,4 +34,4 @@ The First Week
 Early Experiences
 - [Autopilot and School Zones](/projects/tesla/schoolzone/)
 - [Adding a license plate](/projects/tesla/license/)
-- 
+- [Accessories for the Model Y](/projects/tesla/accessory/)

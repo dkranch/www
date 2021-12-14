@@ -34,3 +34,5 @@ It took some pressure to bend the metal and get it to fit the space. No permanen
 Once that was done, I screwed the last two screws that prevent the clips from opening back up.
 
 Easy and quick, and now I'm legal in CO.
+
+Next: [Accessories for the Model Y](/projects/tesla/accessory/)
