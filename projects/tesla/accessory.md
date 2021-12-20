@@ -50,3 +50,5 @@ We got a [pet cover for the backseat](https://amzn.to/3pztKWb), since we like ou
 That’s about it. Right now we’re still thrilled with the car, nothing I’d worry about adding, so no purchases coming anytime soon.
 
 [A video of the accessories](https://youtu.be/tK1hnSYQzII) if you want to see images of the items.
+
+Next: [Snow Tires](/projects/tesla/snowtires/)

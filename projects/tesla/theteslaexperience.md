@@ -35,3 +35,6 @@ Early Experiences
 - [Autopilot and School Zones](/projects/tesla/schoolzone/)
 - [Adding a license plate](/projects/tesla/license/)
 - [Accessories for the Model Y](/projects/tesla/accessory/)
+- [Snow Tires](/projects/tesla/snowtires/)
+
+Data
