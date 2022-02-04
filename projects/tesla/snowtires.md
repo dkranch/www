@@ -39,4 +39,4 @@ We’ll see how they perform in snow, hopefully, but I’m confident as quite a 
 
 Total cost was about $1500 for the tires, mounting, and a warranty. After the issue with the nail, I think $150 for a tire shop warranty makes sense.
 
-Next: Teslamate
+Next: [First Ski Trip](/projects/tesla/firstski/)

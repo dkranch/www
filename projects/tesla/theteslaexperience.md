@@ -36,5 +36,7 @@ Early Experiences
 - [Adding a license plate](/projects/tesla/license/)
 - [Accessories for the Model Y](/projects/tesla/accessory/)
 - [Snow Tires](/projects/tesla/snowtires/)
+- [First Ski Trip](/projects/tesla/firstski/)
 
 Data
+- Teslamate
