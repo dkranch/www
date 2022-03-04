@@ -8,7 +8,7 @@ postdate: 14-Feb-2022
 We have added solar power to the ranch, and this set of posts looks at the project.
 
 - [Getting Started](/projects/solar/gettingstarted)
-- Comparing Bids
+- [Comparing Bids](/projects/solar/bids.md)
 - Arranging the Install
 - The Utility and County
 - Turning Things Live
