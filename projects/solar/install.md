@@ -75,4 +75,4 @@ I logged onto the monitoring system with the credentials I'd received in email a
 
 Very exciting!
 
-Return to the [solar index](/solar/solarindex)
+Return to the [solar index](/projects/solar/solarindex)

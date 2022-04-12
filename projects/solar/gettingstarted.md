@@ -39,4 +39,4 @@ The second thing is climate change. Everyone has their views, but climate change
 
 The last one is that this is a technology change that's kind of cool. Between [experimenting with a Tesla](https://www.dkranch.net/projects/tesla/theteslaexperience/) and this, it's a neat thing in my mind.
 
-Return to the [solar index](/solar/solarindex)
+Return to the [solar index](/projects/solar/solarindex)
