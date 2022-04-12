@@ -74,3 +74,5 @@ I logged onto the monitoring system with the credentials I'd received in email a
 !(/assets/img/solar/solar6.png)[generating power on the first day]
 
 Very exciting!
+
+Return to the [solar index](./solarindex)

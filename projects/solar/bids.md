@@ -57,4 +57,4 @@ As you can see, there isn't a lot of variation, but there is some. As we look to
 
 We decided to go with them in late October, when the Tesla was still new and we weren't sure of the impact to our power bill.
 
-
+Return to the [solar index](./solarindex)
