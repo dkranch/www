@@ -59,4 +59,18 @@ As they were packing up, I went to talk with the project manager. He said everyt
 
 It took about a week for the inspector to come out. There was a mis-schedule the first day, but the inspector apologized and prioritized us a couple days later and came out early. The project managed texted me and arrived only a few minutes after the inspector.
 
-The inspection felt silly. The inspector told us what he wanted to look for, but really just filled out a sticker and put it on a panel as he was explaining things.
+The inspection felt silly. The inspector told us what he wanted to look for, but really just filled out a sticker and put it on a panel as he was explaining things to us. The whole process was about 5 minutes.
+
+## The Utility Meter
+
+The last step before turning things on was for the local utility to add a small meter to the house for net metering. Their main billing meter is on the East edge of our property on a utility pole, but they needed to add a meter on the house. The project manager said this would take about a week, and then showed me the two switches to flip to turn the system on.
+
+The next day the local utility guy came out, which was stunning. They rang the doorbell and let us know they were here. After a few minutes, he drove away and I thought we could turn things on. However, when I went down to look, there was no meter. I'm guessing he was checking on things, but no communication, which is about par for our utility. They aren't great.
+
+About 4 or 5 days later, I came home and saw the utility truck driving away on the road. I went down and saw the meter installed, so I turned on the sytem. This was February 23, 2022 when we went live.
+
+I logged onto the monitoring system with the credentials I'd received in email and saw the system live. Here's the first day:
+
+!(/assets/img/solar/solar6.png)[generating power on the first day]
+
+Very exciting!
