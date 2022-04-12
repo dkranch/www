@@ -9,6 +9,6 @@ We have added solar power to the ranch, and this set of posts looks at the proje
 
 - [Getting Started](/projects/solar/gettingstarted)
 - [Comparing Bids](/projects/solar/bids.md)
-- Arranging the Install
-- The Utility and County
-- Turning Things Live
+- [The Install](/projects/solar/install.md)
+- [Turning Things Live](/projects/solar/live.md)
+- [One Month In](/projects/solar/solaronemonth.md)
