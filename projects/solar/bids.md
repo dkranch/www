@@ -55,6 +55,6 @@ The cost of financing was higher with Namaste, but I have a couple friends that 
 
 As you can see, there isn't a lot of variation, but there is some. As we look to long term cost stability and adding an electric car, we decided that a bigger system was worth a higher cost of financing from Namaste.
 
-We decided to go with them in late October, when the Tesla was still new and we weren't sure of the impact to our power bill.
+We decided to go with them in late October, when the Tesla was still new and we weren't sure of the impact to our power bill. We picked a financh charge with a bit higher interest rate, but a longer term and ended up with a monthly payment of $136 for the larger system. 20 years, but we were comfortable with that.
 
 Return to the [solar index](/solar/solarindex)
