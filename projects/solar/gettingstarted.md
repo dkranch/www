@@ -38,3 +38,5 @@ This should result in a pretty good reutrn on investment over time. It's about a
 The second thing is climate change. Everyone has their views, but climate change seems to be happening. You can debate the cause, but we ought to engineer things better, and our view is solar power is one way to help deal with the situation with a better engineering solution than continuing to work with fossil fuels.
 
 The last one is that this is a technology change that's kind of cool. Between [experimenting with a Tesla](https://www.dkranch.net/projects/tesla/theteslaexperience/) and this, it's a neat thing in my mind.
+
+Return to the [solar index](/solar/solarindex)

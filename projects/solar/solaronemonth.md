@@ -36,4 +36,4 @@ Close, but a couple cloud days at the end of the month prevented us from catchin
 
 For the two months, we were about a day and a half up on the surplus side. It will be interested to see how this goes over time.
 
-Return to the [solar index](./solarindex)
+Return to the [solar index](/solar/solarindex)
