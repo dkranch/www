@@ -40,3 +40,7 @@ Early Experiences
 
 Data
 - Teslamate
+
+Owning the Tesla
+- [Chill v Standard Acceleration](/projects/tesla/chill/)
+- [Tesla Charge Loss While Sitting](/projects/tesla/chargeloss)
