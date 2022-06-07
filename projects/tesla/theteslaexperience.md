@@ -43,4 +43,7 @@ Data
 
 Owning the Tesla
 - [Chill v Standard Acceleration](/projects/tesla/chill/)
-- [Tesla Charge Loss While Sitting](/projects/tesla/chargeloss)
+- [Tesla Charge Loss While Sitting](/projects/tesla/chargeloss/)
+- [Turn off Tesla Sentry Mode at the Airport](/projects/tesla/sentrymode/)
+- [Traveling Away For Two Weeks](/projects/tesla/twoweeks/)
+- [Tesla Power Use in Summer and Winter](/projects/tesla/summerwinter)
