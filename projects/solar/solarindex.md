@@ -11,3 +11,4 @@ We have added solar power to the ranch, and this set of posts looks at the proje
 - [Comparing Bids](/projects/solar/bids)
 - [The Install](/projects/solar/install)
 - [One Month In](/projects/solar/solaronemonth)
+- [Three Months In](/projects/solar/solarthreemonths)
