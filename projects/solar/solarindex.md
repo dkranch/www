@@ -12,3 +12,4 @@ We have added solar power to the ranch, and this set of posts looks at the proje
 - [The Install](/projects/solar/install)
 - [One Month In](/projects/solar/solaronemonth)
 - [Three Months In](/projects/solar/solarthreemonths)
+- [An Amazing Estimate](/projects/solar/solarfourmonths)
