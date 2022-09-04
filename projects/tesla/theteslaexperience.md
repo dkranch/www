@@ -48,4 +48,7 @@ Owning the Tesla
 - [Traveling Away For Two Weeks](/projects/tesla/twoweeks/)
 - [Tesla Power Use in Summer and Winter](/projects/tesla/summerwinter)
 - [Charge Costs at Tesla Superchargers](/projects/tesla/chargecosts)
-
+- [Driving Costs With a Tesla Compared to Gas](/projects/tesla/drivingcosts)
+- [Initial FSD Thoughts with a Tesla Subscription](/projects/tesla/initialfsd)
+- [Proving Minimal Charge Loss for the Tesla](/projects/tesla/prove)
+- [Summon in the Tesla FSD](/projects/tesla/summontest)
