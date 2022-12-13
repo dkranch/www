@@ -13,3 +13,4 @@ We have added solar power to the ranch, and this set of posts looks at the proje
 - [One Month In](/projects/solar/solaronemonth)
 - [Three Months In](/projects/solar/solarthreemonths)
 - [An Amazing Estimate](/projects/solar/solarfourmonths)
+- [Power BI Reporting](/projects/solar/solarreport)
