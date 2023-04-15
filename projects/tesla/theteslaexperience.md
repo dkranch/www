@@ -52,3 +52,4 @@ Owning the Tesla
 - [Initial FSD Thoughts with a Tesla Subscription](/projects/tesla/initialfsd)
 - [Proving Minimal Charge Loss for the Tesla](/projects/tesla/prove)
 - [Summon in the Tesla FSD](/projects/tesla/summontest)
+- [Tesla One Year Review at Nineteen Months](/projects/tesla/18moreview)
