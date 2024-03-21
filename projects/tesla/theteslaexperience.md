@@ -53,3 +53,6 @@ Owning the Tesla
 - [Proving Minimal Charge Loss for the Tesla](/projects/tesla/prove)
 - [Summon in the Tesla FSD](/projects/tesla/summontest)
 - [Tesla One Year Review at Nineteen Months](/projects/tesla/18moreview)
+
+Costs
+- [Long term fuel costs](/projects/tesla/longtermcosts.md)
