@@ -57,6 +57,7 @@ Owning the Tesla
 Full Self Driving
 - [FSD and a highway exit](/projects/tesla/highwayexit)
 - [A week with FSD 2024.3.10](/projects/tesla/firstweekfsd)
+- [Home to Gym](/projects/tesla/hometogym)
 
 
 Costs
