@@ -38,15 +38,14 @@ I enjoy traveling with my wife and experiencing the world. It's really opened my
     - Africa - ??.
     - Antarctica - ?? - Not sure here
     - Australia - June 2019
-- **Visit Madagascar** - Can't explain this one, but I want to go.
-- **Visit Katmandu**
-- **Visit Japan**
-- **Visit the Great Wall of China**
-- **Visit Egypt**
-- **Visit Alaska**
-- **Visit Belize**
+- **Madagascar** - Can't explain this one, but I want to go.
+- **Katmandu**
+- **Japan**
+- **the Great Wall of China**
+- **Egypt**
+- **Alaska**
+- **Belize**
 - **Pet an elephant** - Not sure why, but this somewhat falls under travel
-- **Istanbul** - walk from Europe to Asia
 
 ### Food
 
@@ -95,7 +94,7 @@ I worry less about things as I age, but still a few from my younger years. Can't
 
 - **Climb Mt Everest** - as far as I can up in two weeks.
 - **Climb Mt Fuji** - as far as I can go 
-- **Climb Maccu Piccu** - My wife got me interested in this one.
+- **Climb Machu Pichu** - My wife got me interested in this one.
 - **Ski in Japan**
 - **Attend a fantasy baseball camp** - and play for a week.
 
@@ -156,7 +155,8 @@ It's an impressive list to me, since I wasn't actively working on things for a n
 - **Visit Greece** - went with my wife in 2018.
 - **Drive through the Florida Keys from Miami to Key West** - June 2021, completed with my wife. A fun trip.
 - **Watch the sunset in Key West** - June 2021
-
+- **Visit Venice** - went with my wife in 2022
+- **Visit Lisbon** - went with my wife in 2022
 ### Posessions
 
 - **Own a house** - Summer 1992	I have owned quite a few. Bought one right after college and have owned one ever since. Actually own a few now.

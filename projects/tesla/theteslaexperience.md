@@ -28,5 +28,37 @@ The First Week
 - [Finding a Checklist](/projects/tesla/checklist/)
 - [Picking up the Tesla](/projects/tesla/pickup/)
 - [The First Drive](/projects/tesla/dayone/)
-- First Week Charging
-- Initial Accessories
+- [Installing Mud Flaps](/projects/tesla/mudflaps/)
+- [First Week Charging](/projects/tesla/chargeone/)
+
+Early Experiences
+- [Autopilot and School Zones](/projects/tesla/schoolzone/)
+- [Adding a license plate](/projects/tesla/license/)
+- [Accessories for the Model Y](/projects/tesla/accessory/)
+- [Snow Tires](/projects/tesla/snowtires/)
+- [First Ski Trip](/projects/tesla/firstski/)
+
+Data
+- Teslamate
+
+Owning the Tesla
+- [Chill v Standard Acceleration](/projects/tesla/chill/)
+- [Tesla Charge Loss While Sitting](/projects/tesla/chargeloss/)
+- [Turn off Tesla Sentry Mode at the Airport](/projects/tesla/sentrymode/)
+- [Traveling Away For Two Weeks](/projects/tesla/twoweeks/)
+- [Tesla Power Use in Summer and Winter](/projects/tesla/summerwinter)
+- [Charge Costs at Tesla Superchargers](/projects/tesla/chargecosts)
+- [Driving Costs With a Tesla Compared to Gas](/projects/tesla/drivingcosts)
+- [Initial FSD Thoughts with a Tesla Subscription](/projects/tesla/initialfsd)
+- [Proving Minimal Charge Loss for the Tesla](/projects/tesla/prove)
+- [Summon in the Tesla FSD](/projects/tesla/summontest)
+- [Tesla One Year Review at Nineteen Months](/projects/tesla/18moreview)
+
+Full Self Driving
+- [FSD and a highway exit](/projects/tesla/highwayexit)
+- [A week with FSD 2024.3.10](/projects/tesla/firstweekfsd)
+- [Home to Gym](/projects/tesla/hometogym)
+
+
+Costs
+- [Long term fuel costs](/projects/tesla/longtermcosts.md)
