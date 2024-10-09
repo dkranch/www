@@ -9,7 +9,6 @@ This is a companion to a series of posts I've written on getting a Tesla. I'm do
 
 I'm adding those posts, along with other thoughts, here to document the experience as it occurs. I'm putting these in chronological order, for ease of following the story.
 
-If you are thinking of ordering one, I’ve got a referral code. You get 1,000 free Supercharger miles and so do I. Use: [http://ts.la/john92950](http://ts.la/john92950)
 
 The Decision
 - [Early thoughts on Tesla](/projects/tesla/teslathoughts/)

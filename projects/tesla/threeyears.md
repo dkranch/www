@@ -55,7 +55,7 @@ My view is that the engineers and designers didn't give enough thought to very d
 
 In my other cars, it can be easy to turn up the air, and the control some of the flow with vents.
 
-Second to this would be a lack of control on charging. I have the car set to charge overnight at 1030p, but I can't set a second charging cycle. Since I have solar panels, I'd like to charge during the day when I can, but I can't set a second cycle and I don't want to lose the overnight one if we've driven a lot.
+Everything else seems fairly minor. There is a lot of road noise, which I think speaks to a lack of insulation and some design cost cutting, but it's not a big deal. My other little complaints are just that, little.
 
 ## The Costs
 
