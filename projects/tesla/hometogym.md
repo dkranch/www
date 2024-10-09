@@ -2,7 +2,7 @@
 layout: page
 title: "FSD Home to Gym"
 subtitle: Can the car get me to my workout?
-postdate: 14-Feb-2024
+postdate: 15-Feb-2024
 ---
 As I'm testing FSD, I decided to see how it handles common drives for me. In the last year, I've driven to the gym 68 times in the Tesla. This is a common trip for me 2-3 times a week. I was also gone over 100 days last year across 36 trips, so the 68 feels low, but it's probably accurate.
 

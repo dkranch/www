@@ -53,6 +53,7 @@ Owning the Tesla
 - [Proving Minimal Charge Loss for the Tesla](/projects/tesla/prove)
 - [Summon in the Tesla FSD](/projects/tesla/summontest)
 - [Tesla One Year Review at Nineteen Months](/projects/tesla/18moreview)
+- [The Three Year Review](/projects/tesla/threeyears)
 
 Full Self Driving
 - [FSD and a highway exit](/projects/tesla/highwayexit)
