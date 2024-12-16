@@ -53,6 +53,7 @@ Owning the Tesla
 - [Summon in the Tesla FSD](/projects/tesla/summontest)
 - [Tesla One Year Review at Nineteen Months](/projects/tesla/18moreview)
 - [The Three Year Review](/projects/tesla/threeyears)
+- [The Two Supercharger Trip](/projects/tesla/twosupercharger2024)
 
 Full Self Driving
 - [FSD and a highway exit](/projects/tesla/highwayexit)
