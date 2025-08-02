@@ -11,6 +11,8 @@ Here's the final view in July 2025.
 
 ![July 2025 view of the arena](/assets/img/arena/arena_Jul2025.png)
 
+Looks the same (I hope), which is the point. 
+
 ## Project Phases
 - [Replacement Materials](materials.md)
 - [Deconstruction](deconstruction.md)

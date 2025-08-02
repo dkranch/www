@@ -17,6 +17,7 @@ Various things we've assembled, paid for, or made changes to in our lives.
 - [The Failed Barn Project](/projects/barn1/) - Our first attempt at a building.
 - [We built a barn](/projects/barn2/) - Not us, but we paid for someone to build. I guess we did some work.
 - [Fencing](/projects/fencing/) - First big fence project
+- [The Arena Roof Project](/projects/arenaroof/) - Replacing the roof of the arena.
 
 ## Wood
 
