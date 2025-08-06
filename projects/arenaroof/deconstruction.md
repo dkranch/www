@@ -22,7 +22,7 @@ Once we got everything cut, things were loose. I was a little worried, but there
 
 From here, we needed to cut the steel cable and the fabric. I went up the outside and cut the cable on the East end, but then had my son go up as I was getting tired. He started cutting the roof.
 
-[Cutting the first section](https://youtube.com/shorts/GDhDMtAaqvA)
+<iframe width="560" height="315" src="https://youtube.com/shorts/GDhDMtAaqvA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 The lift only goes so far and this is a 140' long roof, so you can see him moving to cut more.
 
