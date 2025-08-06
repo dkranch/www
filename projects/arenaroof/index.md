@@ -18,4 +18,5 @@ Looks the same (I hope), which is the point.
 - [Deconstruction](deconstruction.md)
 - [The First section](first_section.md)
 - [Racing the Wind](racing_the_wind.md)
+- [Getting Everything Tight](tight.md)
 - [Finishing Up Alone](finishing_up_alone.md)
