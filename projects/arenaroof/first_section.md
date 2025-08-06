@@ -20,10 +20,22 @@ Finally, we had to feed the 4 reels over the frame. This took some doing, moving
 
 ![Webbing over the frame](/assets/img/arena/arena_webbing_over_frame.png)
 
-
+From there, we pulled the section up.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CZbKupzJyxw?si=M4CVn-crkUisHKqn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+I had to get around fence, so this the second part of the video is here.
+
 [Finishing the pull](https://youtube.com/shorts/r3Xk8Vvp9aE?feature=share)
+
+Once this was done, we had to stretch the fabric to the frame. It's not quite reaching the ends, so we tied webbing to the grommets, pulled it over, and tied it down. The repeated every 3rd or 4th grommet. This was a lot of work, but we got it done by the end of the day.
+
+![Tying down the fabric](/assets/img/arena/arena_tying_down_fabric.png)
+
+We still had to then use 1" webbing to tie the fabric to the frame. This was slow going we we had to cut a long piece, get it through the grommet and then over the frame. Pull the entire length through (about 80' of webbing) and then repeat. For the end wall, which had a semi-taught cable in it, this sucked.
+
+My wife thought spatulas would help and brought a few out from the house, and then made everything easier.
+
+By the end of the day we had the first section up and half tied down. We were exhausted, but it was a good day.
 
 Back to the [main project page](/projects/arenaroof/)
