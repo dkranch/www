@@ -26,7 +26,12 @@ From there, we pulled the section up.
 
 I had to get around fence, so this the second part of the video is here.
 
-[Finishing the pull](https://youtube.com/shorts/r3Xk8Vvp9aE?feature=share)
+<iframe width="315" height="560"
+src="https://www.youtube.com/embed/r3Xk8Vvp9aE"
+title="YouTube video player"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen></iframe>
 
 Once this was done, we had to stretch the fabric to the frame. It's not quite reaching the ends, so we tied webbing to the grommets, pulled it over, and tied it down. The repeated every 3rd or 4th grommet. This was a lot of work, but we got it done by the end of the day.
 
