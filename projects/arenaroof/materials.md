@@ -16,8 +16,15 @@ Eventually he unloaded 4 pallets of white wrapped materials. They were in the fr
 
 [Video of pallets being unloaded by an unhappy driver](https://youtu.be/Cm0pdMcNb9s)
 
+<iframe width="315" height="560"
+src="https://www.youtube.com/embed/Cm0pdMcNb9s"
+title="YouTube video player"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen></iframe>
+
 I can't find pictures of them, but it wasn't much to see. Mishapen blobs of white wrapped in plastic. They were heavy, each had to be hundreds of pounds.
 
 We had these behind the area for months. We finally organized a consultant from the company (for $1600/day) to come out for a week in July during my sabbatical.
 
-Back to the [main project page](/projects/arenaroof/index.md)
+Back to the [main project page](/projects/arenaroof/)

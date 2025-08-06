@@ -10,4 +10,4 @@ The second day
 
 [Finishing the pull](https://youtube.com/shorts/r3Xk8Vvp9aE?feature=share)
 
-Back to the [main project page](/projects/arenaroof/index.md)
+Back to the [main project page](/projects/arenaroof/)

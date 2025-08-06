@@ -48,4 +48,4 @@ By the end of the day, we had the entire roof down. Here's the view of sunset as
 
 ![Sunset after a long day](/assets/img/arena/arena_sunset.png)
 
-Back to the [main project page](/projects/arenaroof/index.md)
+Back to the [main project page](/projects/arenaroof/)
