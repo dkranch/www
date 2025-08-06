@@ -19,3 +19,5 @@ Eventually he unloaded 4 pallets of white wrapped materials. They were in the fr
 I can't find pictures of them, but it wasn't much to see. Mishapen blobs of white wrapped in plastic. They were heavy, each had to be hundreds of pounds.
 
 We had these behind the area for months. We finally organized a consultant from the company (for $1600/day) to come out for a week in July during my sabbatical.
+
+Back to the [main project page](/projects/arenaroof/index.md)
