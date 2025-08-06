@@ -14,7 +14,7 @@ Things came on a wet day, late in the day, and the knucklehead driving the truck
 
 Eventually he unloaded 4 pallets of white wrapped materials. They were in the front for a few weeks until I could get them moved behind the arena. I didn't unwrap or open them and was a little worried about what was inside. I figured we'd get help scheduled and then look at them.
 
-[Video of pallets being unloaded by an unhappy driver](https://youtu.be/Cm0pdMcNb9s)
+Here's a video of pallets being unloaded by an unhappy driver
 
 <iframe width="315" height="560"
 src="https://www.youtube.com/embed/Cm0pdMcNb9s"
