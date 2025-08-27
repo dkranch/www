@@ -48,6 +48,7 @@ These are the autors I've used for transporting myself around, or my wife has. W
 29. 2020 Subaru Crosstrek - Tia wanted something to get her through the snow, and I got this for her. It's a near little car.
 30. 2010 Toyota Prius - When she needed a new car, my wife wanted another Prius. Got a good deal and drove over 100k before a kid wrecked it.
 31. 2021 Tesla Model Y - The fastest and best car I've owned.
+32. 2022 Dodge Ram 2500 - Our first dually
 
 
 
