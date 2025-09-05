@@ -55,6 +55,7 @@ Owning the Tesla
 - [The Three Year Review](/projects/tesla/threeyears)
 - [The Two Supercharger Trip](/projects/tesla/twosupercharger2024)
 - [Leaving the Tesla Home](/projects/tesla/leavingteslahome)
+- [The $700 TPMS Sensor](/projects/tesla/tpms)
 
 Full Self Driving
 - [FSD and a highway exit](/projects/tesla/highwayexit)
@@ -63,4 +64,5 @@ Full Self Driving
 
 
 Costs
-- [Long term fuel costs](/projects/tesla/longtermcosts.md)
+- [Long term fuel costs](/projects/tesla/longtermcosts)
+- [Costs over Four Years](/projects/tesla/fouryearcosts)
