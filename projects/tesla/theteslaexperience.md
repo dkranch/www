@@ -56,6 +56,7 @@ Owning the Tesla
 - [The Two Supercharger Trip](/projects/tesla/twosupercharger2024)
 - [Leaving the Tesla Home](/projects/tesla/leavingteslahome)
 - [The $700 TPMS Sensor](/projects/tesla/tpms)
+- [Proactive Battery Replacement](/projects/tesla/batteryreplacement)
 
 Full Self Driving
 - [FSD and a highway exit](/projects/tesla/highwayexit)
