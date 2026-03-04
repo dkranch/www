@@ -9,6 +9,8 @@ subtitle: Various Things I've worked on
 Experiences and throughts on cars, trucks, and all sorts of transport.
 
 - [The Colorado Tesla Experience](/projects/tesla/theteslaexperience)
+- [The Colorado EV Experience](/projects/ev/evexperience)
+
 ## Construction
 
 Various things we've assembled, paid for, or made changes to in our lives.
