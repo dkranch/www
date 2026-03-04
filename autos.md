@@ -12,7 +12,7 @@ In use now (repeated below):
 31. 2021 Tesla Model Y - The fastest and best car I've owned.
 28. [2012 BMW X5 35i (E70)](/thoughts/bmwx5/) - I wanted a luxury SUV after the Suburban. I spent 3-4 months looking and got this. The most expensive car I bought, and I slightly regret it, but it's fun to drive.
 32. 2022 Dodge Ram 2500 - Our first dually. We realized that we needed something larger to pull the trailers easily.
-26. [2001 Chevy Suburban](/thoughts/Suburban2001/) - We bought this with 101k miles for $6500 and at last check we'd owned it for 15 years, driven it all over the West, and it has 230k miles. The White Whale might be the best car I've owned.
+33. 2010 Chevrolet Suburban - We bought this with 203k miles for $6300 with a credit card!
 
 ## Cars
 
@@ -50,7 +50,7 @@ These are the autors I've used for transporting myself around, or my wife has. W
 30. 2010 Toyota Prius - When she needed a new car, my wife wanted another Prius. Got a good deal and drove over 100k before a kid wrecked it.
 31. 2021 Tesla Model Y - The fastest and best car I've owned.
 32. 2022 Dodge Ram 2500 - Our first dually. We realized that we needed something larger to pull the trailers easily.
-
+33. 2010 Chevrolet Suburban - We bought this with 203k miles for $6300 with a credit card!
 
 
 ## Other Vehicles
