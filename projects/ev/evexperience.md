@@ -9,5 +9,9 @@ These are posts about my experiences with electric vehicles. I started with a Te
 
 Shopping
 - [Research](/projects/ev/research/) (updates keep coming)
-- [Genesis](/projects/ev/genesisGV70/)
 
+
+Test Drives
+- [Genesis GV70](/projects/ev/genesisGV70/) - gas version
+- [Kia EV9](/projects/ev/kiaev9/)
+- Cadillac Optiq

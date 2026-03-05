@@ -10,7 +10,7 @@ We love the Tesla. It still is the best car (after 4.5 years) that we have ever 
 ## Why Look
 We had a good year and were in a nice financial position. As we were driving one day my wife said she'd like a nicer car. We spend a decent amount of time driving together to coach, ski, etc. and she would like something a little more luxurious. The Tesla Model Y is great, but it's not as luxurious as some other cars. 
 
-
+Since we can afford a different one and it's something that we would enjoy, we decided to start looking at other EVs. We are not in a hurry, so we can take our time and look at different options.
 
 ## Looking Online
 
@@ -23,8 +23,9 @@ Once we had a list of cars, we started looking at reviews and videos of the cars
 A few videos of reviews that we watched:
 - [Genesis GV70 EV Review](https://www.youtube.com/watch?v=vJtSWAnseaA)
 - [Genesis GV60 EV Review](https://www.youtube.com/watch?v=Z5rlNcnt6xs)
-- []
-- []
+- [Audi Q4 eTron](https://www.youtube.com/watch?v=gRMZ9NHY9K0)
+- [Rivian R2](https://www.youtube.com/watch?v=xUl_0087dyM)
+- [Cadillac Optiq](https://www.youtube.com/watch?v=feynkIxfb4Q)
 
 It's nice to not be in a hurry, so we can slowly look through the cars and consider what we like and don't like.
 
@@ -43,6 +44,6 @@ Here were the cars we considered and put on our list. A few notes as we've elimi
 
 **BMW iX3** - Still thinking. Might go drive one for fun, but I've been turned off by BMW high costs for parts and sometimes poor engineering.
 
-**Audi SQ6 e-tron** - I wouldn't mind looking at one, but it's likely too pricey.
+**Audi S4 e-tron** - I wouldn't mind looking at one, but the range (280) seems low. Not sure this is worth it. [A C&D review](https://www.caranddriver.com/audi/q4-e-tron).
 
 **Rivian R2** - This looks great, and might be a good choice. I'm a little nervous about the first version of a new model, but we might take a look.
