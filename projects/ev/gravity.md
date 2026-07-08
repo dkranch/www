@@ -7,7 +7,7 @@ postdate: 6-Jul-2026
 
 We have been wanting to try a Lucid, but scheduling a drive can be a pain with our schedules. We saw a few, and they looked like a minivan at first glance. I even got a picture the week before while running errands.
 
-![Lucid Gravity](/assets/images/ev/gravityparked.png)
+![Lucid Gravity](/assets/img/ev/gravityparked.png)
 
 We saw a few driving around, and didn't love the trim/two-tone on the roof. This wasn't on our list really, but since we had time and the dealer was close, we stopped by the Millbrae dealer in SF.
 
@@ -20,7 +20,7 @@ We also loved the rear seats folding backwards into the lower space, making a lo
 ## Test Drive
 I went first, and it was a bit of a surprise. The weird steering wheel is interesting, but I quikly found I liked it since I can rest my hands on the top of it. I was surprised how well it felt.
 
-![Gravity Steering](/assets/images/ev/gravitysteering.png)
+![Gravity Steering](/assets/img/ev/gravitysteering.png)
 
 The ride was very smooth. Cadillac-like or even better. It's quick, like crazy Tesla quick as well, despite being a larger car. It also felt very spacious inside. It flowed down the road. 
 
@@ -36,7 +36,7 @@ Plus the Gravity charges faster. That might have made a difference as well.
 
 The Model Y efficiency is hard to beat, but I checked the Cadillac v the Model Y and Gravity. Very respectible figures here.
 
-![EV Fuel](/assets/images/ev/evfuel.png)
+![EV Fuel](/assets/img/ev/evfuel.png)
 
 ## Downsides
 Overall, it's great. Price aside, since this can be expensive with the long range version. A few things stood out.
@@ -49,7 +49,7 @@ When we got in, it was hot. About 85F outside and starting the car had the fans 
 
 The other strange thing is the way the seats work. From one of their promo videos, you can see the side view here. Notice the space behind the second row.
 
-![Gravity Cargo](/assets/images/ev/gravitycargo.png)
+![Gravity Cargo](/assets/img/ev/gravitycargo.png)
 
 It's a gap. When you fold things down, the rear seats disappear into the floor, and the second row goes down, but there is a gap there. I guess we could get some firm floor liner but haven't seen one. More I thought this might be a place I stick a few duffel bags of spare clothes and then have a soft liner above. We'll see.
 
