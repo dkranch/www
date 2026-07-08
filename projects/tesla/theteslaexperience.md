@@ -57,6 +57,8 @@ Owning the Tesla
 - [Leaving the Tesla Home](/projects/tesla/leavingteslahome)
 - [The $700 TPMS Sensor](/projects/tesla/tpms)
 - [Proactive Battery Replacement](/projects/tesla/batteryreplacement)
+- [Deciding to Sell](/projects/tesla/decidingtosell)
+- [A Fender Bender](/projects/tesla/fenderbender)
 
 Full Self Driving
 - [FSD and a highway exit](/projects/tesla/highwayexit)
