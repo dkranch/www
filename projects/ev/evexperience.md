@@ -11,7 +11,7 @@ We looked at a couple of cars in Feb 2026, and started to think more seriously a
 
 Shopping
 - [Research](/projects/ev/research/) (updates keep coming)
-- [Choosing a Gravity](/projects/ev/gravityshopping/) - the next choice
+- [Choosing a Gravity](/projects/lucid/toc/) - the next choice
 
 Test Drives
 - [Genesis GV70](/projects/ev/genesisGV70/) - gas version

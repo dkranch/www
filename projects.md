@@ -9,7 +9,8 @@ subtitle: Various Things I've worked on
 Experiences and throughts on cars, trucks, and all sorts of transport.
 
 - [The Colorado Tesla Experience](/projects/tesla/theteslaexperience)
-- [The Colorado EV Experience](/projects/ev/evexperience)
+- [A Seecond EV](/projects/ev/evexperience)
+- [The Lucid Gravity](/projects/lucid/toc)
 
 ## Construction
 

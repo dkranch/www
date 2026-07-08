@@ -13,6 +13,7 @@ In use now (repeated below):
 28. [2012 BMW X5 35i (E70)](/thoughts/bmwx5/) - I wanted a luxury SUV after the Suburban. I spent 3-4 months looking and got this. The most expensive car I bought, and I slightly regret it, but it's fun to drive.
 32. 2022 Dodge Ram 2500 - Our first dually. We realized that we needed something larger to pull the trailers easily.
 33. 2010 Chevrolet Suburban - We bought this with 203k miles for $6300 with a credit card!
+34. 2026 Lucid Gravity - Our second EV
 
 ## Cars
 
