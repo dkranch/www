@@ -26,24 +26,29 @@ A few videos of reviews that we watched:
 - [Audi Q4 eTron](https://www.youtube.com/watch?v=gRMZ9NHY9K0)
 - [Rivian R2](https://www.youtube.com/watch?v=xUl_0087dyM)
 - [Cadillac Optiq](https://www.youtube.com/watch?v=feynkIxfb4Q)
+- [Lincoln Navigator EV](https://www.youtube.com/watch?v=SEeEdw9Dg-k)
 
 It's nice to not be in a hurry, so we can slowly look through the cars and consider what we like and don't like.
 
 ## The List
 Here were the cars we considered and put on our list. A few notes as we've eliminated some of them.
 
+**Lucid Gravity** - We weren't sure this was attractive enough and almost didn't try one. We did give on a try and loved it. **Update** We picked this.
+
 **Polestar 3/4** - This looked like an interesting car. However, someone pointed out that [Polestar is having issues](https://www.cbtnews.com/polestar-posts-1-billion-loss-as-tariffs-and-weak-u-s-sales-pressure-ev-maker/). **Eliminated**
 
-**Genesis GV70 EV** - [We drove the gas version](/projects/ev/genesisgv70.md). Still thinking about it.
+**Genesis GV70 EV** - [We drove the gas version](/projects/ev/genesisgv70.md). Still thinking about it. **Update** We eliminated this because of no CO sales.
 
-**Genesis GV60 EV** - I'd like to see one.
+**Genesis GV60 EV** - I'd like to see one. **Update** We eliminated this because of size. Too small.
 
-**Cadillac Optiq** - On the list.
+**Cadillac Optiq** - On the list. **Update** We eliminated this because of size. Ride not as smooth as Lyriq and louder.
 
 **Porsche Macan EV** - We considered it, but it's a little too pricey. **Eliminated**
 
-**BMW iX3** - Still thinking. Might go drive one for fun, but I've been turned off by BMW high costs for parts and sometimes poor engineering.
+**BMW iX3** - Still thinking. Might go drive one for fun, but I've been turned off by BMW high costs for parts and sometimes poor engineering. **Update** We eliminated this because I think BMWs are too pricey and underengineered in places. My X5 experience annoyed me. 
 
-**Audi S4 e-tron** - I wouldn't mind looking at one, but the range (280) seems low. Not sure this is worth it. [A C&D review](https://www.caranddriver.com/audi/q4-e-tron).
+**Audi S4 e-tron** - I wouldn't mind looking at one, but the range (280) seems low. Not sure this is worth it. [A C&D review](https://www.caranddriver.com/audi/q4-e-tron). **Update** We eliminated this for no good reason.
 
-**Rivian R2** - This looks great, and might be a good choice. I'm a little nervous about the first version of a new model, but we might take a look.
+**Rivian R1S** - Seems large, but it is nice. On the list to drive. **Update** We eliminated this as it's not luxurious and too tall/large. It's very inefficient as a car.
+
+**Rivian R2** - This looks great, and might be a good choice. I'm a little nervous about the first version of a new model, but we might take a look. **Update** We eliminated this as it's not luxurious.
