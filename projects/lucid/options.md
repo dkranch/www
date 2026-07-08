@@ -20,11 +20,11 @@ There are 0-60 times and other items, but really my Model Y was 0-40 in 4.6 seco
 ## Colors
 They have a few colors: black, silver metallic, gray metallic, green metallic, and bronze. I didn't want silver, but the rest didn't really matter. The big thing was that the trim around the roof matters. The default is stealth, which is trying to match the car. There is an option for Platinum, which adds trim. You can see the black stealth here:
 
-![Lucid Gravity Stealth](/assets/images/ev/gravitystealth.png)
+![Lucid Gravity Stealth](/assets/img/ev/gravitystealth.png)
 
 Platinum:
 
-![Lucid Gravity Platinum](/assets/images/ev/gravityplatinum.png)
+![Lucid Gravity Platinum](/assets/img/ev/gravityplatinum.png)
 
 We didn't want to get stuck with Platinum, but since we were looking at 2026's, we might. So, we decided to search for only one color: Black. We ended up with:
 - Black  **our choice**
@@ -41,14 +41,14 @@ We were lucky that there were a lot of choices with the smaller wheels.
 ## Interior
 They have 2 artificial leather trims and 2 real ones. The default is a blackish trim, called Mojave, which you can see below.
 
-![Gravity default trim](/assets/images/ev/gravitydefaulttrim.png)
+![Gravity default trim](/assets/img/ev/gravitydefaulttrim.png)
 
 The list is:
 - a light color (Yosemite)
 - brown leather (Tahoe) **our choice**
 - a tan leather (Ojai)
 
-![Gravity interior colors](/assets/images/ev/gravityinteriorcolors.png)
+![Gravity interior colors](/assets/img/ev/gravityinteriorcolors.png)
 
 We weren't too concerned, though we didn't want the light one. We ended up with the brown leather, which was probably our first choice.
 
@@ -59,11 +59,11 @@ There are two options here:
 
 You can see the difference in images here. Once in, you can't remove the last row. 
 
-![5 seater](/assets/images/ev/gravity5.png)
+![5 seater](/assets/img/ev/gravity5.png)
 
 This image shows the 7 seater, which has the third row way back there. There actually is some space behind the rear seats when up.
 
-![7 seater](/assets/images/ev/gravity7.png)
+![7 seater](/assets/img/ev/gravity7.png)
 
 We didn't search for this specifically, but we didn't want the 7 seats. We don't need them and they take up space. We don't take everyone along with us, so a 5 seater works fine. We ended up finding one in inventory.
 
