@@ -26,4 +26,4 @@ The First Week
 - [Seats](/projects/lucid/seats/)
 - Charging
 - DreamDrive Premium First Impressions
-- The Pilot Panel
+- [The Right Cockpit Panel](/projects/lucid/cockpitright/)
