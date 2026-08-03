@@ -19,3 +19,11 @@ More stuff below
 
 - [Option Selection](/projects/lucid/options/)
 - [Purchasing a Gravity](/projects/lucid/purchasing/)
+- Sales Experience
+- [The Delivery](/projects/lucid/delivery/)
+
+The First Week
+- [Seats](/projects/lucid/seats/)
+- Charging
+- DreamDrive Premium First Impressions
+- The Pilot Panel
