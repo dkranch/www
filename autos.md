@@ -9,11 +9,9 @@ I love cars, and this page is mostly about cars. However, I've started to have o
 ## Current Cars
 
 In use now (repeated below):
-31. 2021 Tesla Model Y - The fastest and best car I've owned.
-28. [2012 BMW X5 35i (E70)](/thoughts/bmwx5/) - I wanted a luxury SUV after the Suburban. I spent 3-4 months looking and got this. The most expensive car I bought, and I slightly regret it, but it's fun to drive.
 32. 2022 Dodge Ram 2500 - Our first dually. We realized that we needed something larger to pull the trailers easily.
 33. 2010 Chevrolet Suburban - We bought this with 203k miles for $6300 with a credit card!
-34. 2026 Lucid Gravity - Our second EV
+34. [2026 Lucid Gravity](/projects/lucid/toc/) - Our second EV and the most luxury car we've owned.
 
 ## Cars
 
@@ -49,10 +47,10 @@ These are the autors I've used for transporting myself around, or my wife has. W
 28. 2012 BMW X5 35i (E70) - I wanted a luxury SUV after the Suburban. I spent 3-4 months looking and got this. The most expensive car I bought, and I slightly regret it, but it's fun to drive.
 29. 2020 Subaru Crosstrek - Tia wanted something to get her through the snow, and I got this for her. It's a near little car.
 30. 2010 Toyota Prius - When she needed a new car, my wife wanted another Prius. Got a good deal and drove over 100k before a kid wrecked it.
-31. 2021 Tesla Model Y - The fastest and best car I've owned.
+31. [2021 Tesla Model Y](/projects/tesla/theteslaexperience/) - The fastest and best car I've owned.
 32. 2022 Dodge Ram 2500 - Our first dually. We realized that we needed something larger to pull the trailers easily.
 33. 2010 Chevrolet Suburban - We bought this with 203k miles for $6300 with a credit card!
-
+34. [2026 Lucid Gravity](/projects/lucid/toc/) - Our second EV
 
 ## Other Vehicles
 
