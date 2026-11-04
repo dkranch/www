@@ -414,6 +414,15 @@
         // Player data structure
         let players = [];
 
+        // ===== EDIT THIS LIST: starting player names for this team (12 players) =====
+        const DEFAULT_NAMES = [
+            'Lucia', 'Divon', 'Carsyn',
+            'Montana', 'Colette', 'Rikki',
+            'Lexi', 'Josie', 'Ava',
+            'Maddie', 'Carsyn', 'Mya'
+        ];
+        // ============================================================================
+
         // Initialize 12 players (4 rows x 3 columns)
         // Storage key includes the page path so each copy (file name/folder) keeps separate data
         const STORE_KEY = location.pathname.replace(/index\.html?$/i, '') + '|volleyballPlayers';
@@ -425,7 +434,7 @@
             } else {
                 players = Array.from({ length: 12 }, (_, i) => ({
                     id: i,
-                    name: `Player ${i + 1}`,
+                    name: DEFAULT_NAMES[i] || `Player ${i + 1}`,
                     attempts: 0,
                     totalScore: 0,
                     ratings: []
