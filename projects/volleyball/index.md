@@ -34,9 +34,9 @@ The dot (.) is the current folder and the 14black.html is the output file that w
 
 I do this on paper during the match and then transfer the data to a spreadsheet afterward for analysis. That's a pain. I made a quick tool that essentially duplicates paper.
 
-<a href="matchstats.html" target="_blank">Match Stats Tool</a>
-<a href="matchstats14b.html" target="_blank">14 Black Stats</a>
-<a href="matchstats17r.html" target="_blank">17 Red Stats</a>
+- <a href="matchstats.html" target="_blank">Match Stats Tool</a>
+- <a href="matchstats14b.html" target="_blank">14 Black Stats</a>
+- <a href="matchstats17r.html" target="_blank">17 Red Stats</a>
 
 A few notes:
 - Enter the event, opponent, set, and change date/time
@@ -48,4 +48,6 @@ A few notes:
 ## Match Summary
 <a name="matchsummary">Summary tool</a> that loads 1 or more exports from the stats above and gives you totals by player for quick analysis.
 
-<a href="matchsummary.html" target="_blank">Match Summary Tool</a>
+- <a href="matchsummary.html" target="_blank">Match Summary Tool</a>
+
+Click load and select the export files.
