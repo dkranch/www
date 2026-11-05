@@ -3,6 +3,8 @@ I have a few tools I've made for coaching. Each is described below, with links t
 The list of tools is:
 - <a href="#sr">Service Receive Tracking</a>
 - <a href="#season">Season Serve Receive Tracking</a>
+- <a href="#matchstat">Match Stat Tracking</a>
+- <a href="#matchsummary">Match Summary</a>
 
 ## Serve Receive Tracking
 <a name="sr">I have a tool</a> for tracking performance during serve receive. When we set up a drill, we quickly rate players passes and give them feedback after the drill. This duplicates a paper/pencil process, but provides calculations immediately.
@@ -24,3 +26,26 @@ The way to do this is put all the csvs in a folder. You then download <a href="S
 Then run: python analyze.py . 14black.html
 
 The dot (.) is the current folder and the 14black.html is the output file that will be generated with the analysis results. Open that to see your results.
+
+## Match Stats
+<a name="matchstat">Tracking stats</a> during a match is something that needs to be quick and easy. This is more of a trend capture than a record of what happened. So many tools make this hard, and try to be exacting. I just want stats that 
+1 - help me validate coaches impressions
+2 - gives kids a view of their performance
+
+I do this on paper during the match and then transfer the data to a spreadsheet afterward for analysis. That's a pain. I made a quick tool that essentially duplicates paper.
+
+<a href="matchstats.html" target="_blank">Match Stats Tool</a>
+<a href="matchstats14b.html" target="_blank">14 Black Stats</a>
+<a href="matchstats17r.html" target="_blank">17 Red Stats</a>
+
+A few notes:
+- Enter the event, opponent, set, and change date/time
+- Player names are preloaded here for my teams. To do yours, just change the names. Line 71 has players
+- Click a stat to record it. Click undo to remove the last entry
+- Manually click scores to add them
+- export to save. Uses the event and date/time to create the filename
+
+## Match Summary
+<a name="matchsummary">Summary tool</a> that loads 1 or more exports from the stats above and gives you totals by player for quick analysis.
+
+<a href="matchsummary.html" target="_blank">Match Summary Tool</a>

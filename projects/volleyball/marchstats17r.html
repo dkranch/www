@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Volleyball Match Stats</title>
+<style>
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  body { margin: 0; padding: 12px; font-family: system-ui, sans-serif; background: #eef1f6; color: #1d2430; }
+  h1 { margin: 0 0 8px; font-size: 1.3rem; }
+  .header { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px; margin-bottom: 8px; }
+  .header h1 { margin: 0; }
+  .score { display: flex; gap: 6px; align-items: stretch; }
+  .score button { border: 0; border-radius: 8px; cursor: pointer; color: #fff; font-weight: 700; padding: 6px 14px; min-height: 52px; display: flex; flex-direction: column; align-items: center; justify-content: center; line-height: 1.1; }
+  .score .lbl { font-size: .75rem; font-weight: 600; max-width: 110px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .score .pts { font-size: 1.6rem; }
+  #scoreUs { background: #2563eb; } #scoreThem { background: #b45309; }
+  .score .undo-pt { background: #fff; color: #1d2430; border: 1px solid #bcc3d0; font-size: .95rem; }
+  .score .undo-pt:disabled { opacity: .4; cursor: default; }
+  .toolbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 12px; }
+  .toolbar input[type=date], .toolbar input[type=time], .toolbar input[type=text] { padding: 6px; font-size: 1rem; border: 1px solid #bcc3d0; border-radius: 6px; }
+  .toolbar button { padding: 8px 14px; font-size: 1rem; border: 0; border-radius: 6px; background: #2563eb; color: #fff; cursor: pointer; }
+  .toolbar button.danger { background: #dc2626; }
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+  .card { background: #fff; border-radius: 10px; padding: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.15); }
+  .name { width: 100%; font-size: 1.1rem; font-weight: 700; border: 0; border-bottom: 2px solid #e3e6eb; padding: 4px; margin-bottom: 6px; background: transparent; color: inherit; }
+  .quads { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+  .quad { border: 1px solid #e3e6eb; border-radius: 8px; padding: 4px; min-height: 84px; display: flex; flex-direction: column; gap: 4px; }
+  .qhead { font-size: .7rem; color: #6b7585; text-transform: uppercase; letter-spacing: .04em; }
+  .qsum { font-size: .75rem; color: #444; }
+  .btns { display: flex; gap: 4px; flex: 1; }
+  .btns button { flex: 1; min-height: 40px; font-size: 1.05rem; font-weight: 700; border: 0; border-radius: 6px; background: #e8ecf3; color: #1d2430; cursor: pointer; }
+  .btns button:active { filter: brightness(.85); }
+  .serve-btns button { background: #dbeafe; }
+  .serve-btns button.ace { background: #bbf7d0; }
+  .r0 { background: #fecaca !important; } .r1 { background: #fed7aa !important; } .r2 { background: #fef08a !important; } .r3 { background: #bbf7d0 !important; }
+  .bK { background: #bbf7d0 !important; } .bE, .bDE { background: #fecaca !important; } .bA, .bD { background: #dbeafe !important; }
+  .extras { display: grid; grid-template-columns: repeat(6, 1fr); gap: 4px; margin-top: 6px; }
+  .extras button { min-height: 38px; padding: 0; font-size: .8rem; font-weight: 700; border: 0; border-radius: 6px; background: #ede9fe; color: #1d2430; cursor: pointer; }
+  .extras button:active { filter: brightness(.85); }
+  .extras-sum { font-size: .75rem; color: #444; margin-top: 3px; }
+  .undo { margin-top: 6px; width: 100%; padding: 6px; font-size: .95rem; border: 1px solid #bcc3d0; background: #fff; border-radius: 6px; cursor: pointer; color: #1d2430; }
+  .undo:disabled { opacity: .4; cursor: default; }
+  @media (max-width: 800px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 520px) { .grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="header">
+  <h1><span id="teamName"></span> Volleyball Match Stats</h1>
+  <div class="score">
+    <button id="scoreUs" onclick="addPoint('us')"><span class="lbl" id="lblUs"></span><span class="pts" id="ptsUs">0</span></button>
+    <button id="scoreThem" onclick="addPoint('them')"><span class="lbl" id="lblThem"></span><span class="pts" id="ptsThem">0</span></button>
+    <button class="undo-pt" id="undoPt" onclick="undoPoint()">↶ Undo</button>
+  </div>
+</div>
+<div class="toolbar">
+  <input type="text" id="event" placeholder="Event name">
+  <input type="text" id="opponent" placeholder="Opponent / match">
+  <input type="date" id="date">
+  <input type="time" id="time">
+  <input type="number" id="setNum" min="1" placeholder="Set #" style="width:80px">
+  <button onclick="exportJSON()">Export</button>
+  <button class="danger" onclick="resetStats()">Reset Stats</button>
+</div>
+<div class="grid" id="grid"></div>
+
+<script>
+// ===== EDIT ME: team setup =====
+const TEAM_NAME = '14 Black';
+const INITIAL_PLAYERS = [
+  'Lucia', 'Zoe', 'Ava', 'Lexi', 'Josie', 'Mya',
+  'Montana', 'Divon', 'Rikki', 'Carsyn', 'Collette', 'Maddie'
+];  // up to 12 names; any blank spots become "Player N"
+// If you change this list, the saved roster is rebuilt from it (stats are cleared).
+// ===============================
+
+const KEY = 'volleyballMatchStats';
+const now = new Date();
+document.getElementById('date').valueAsDate = now;
+document.getElementById('time').value = now.toTimeString().slice(0, 5);
+
+// Each player: { name, log: [{t:'S'|'R'|'A'|'K'|'E'|'D'|'DE'|'AS'|'NET'|'BHE'|'BA'|'BK'|'BE', v?:number}] }
+const EXTRAS = [['AS','Assist'], ['NET','Net'], ['BHE','BHE'], ['BA','BA'], ['BK','BK'], ['BE','BE']];
+// Undo removes the last logged event. Everything is derived from the log.
+let players = [];
+
+const ROSTER_SIG = JSON.stringify(INITIAL_PLAYERS);
+function load() {
+  try {
+    // Reuse saved stats only if the INITIAL_PLAYERS list hasn't been edited since
+    if (localStorage.getItem(KEY + ':roster') === ROSTER_SIG) players = JSON.parse(localStorage.getItem(KEY)) || [];
+  } catch (e) { players = []; }
+  if (players.length !== 12) {
+    players = Array.from({length: 12}, (_, i) => ({ name: INITIAL_PLAYERS[i] || 'Player ' + (i + 1), log: [] }));
+  }
+}
+function save() {
+  try {
+    localStorage.setItem(KEY, JSON.stringify(players));
+    localStorage.setItem(KEY + ':roster', ROSTER_SIG);
+  } catch (e) {}
+}
+
+function stats(p) {
+  const s = { serves: [], recvs: [], A: 0, K: 0, E: 0, D: 0, DE: 0, AS: 0, NET: 0, BHE: 0, BA: 0, BK: 0, BE: 0 };
+  for (const e of p.log) {
+    if (e.t === 'S') s.serves.push(e.v);
+    else if (e.t === 'R') s.recvs.push(e.v);
+    else s[e.t]++;
+  }
+  return s;
+}
+const avg = (a, empty = '–') => a.length ? (a.reduce((x, y) => x + y, 0) / a.length).toFixed(2) : empty;
+const hitPct = (s, empty = '–') => s.A ? ((s.K - s.E) / s.A).toFixed(3) : empty;
+
+function add(id, ev) { players[id].log.push(ev); save(); render(); }
+function undo(id) { players[id].log.pop(); save(); render(); }
+
+function render() {
+  const grid = document.getElementById('grid');
+  grid.innerHTML = '';
+  players.forEach((p, id) => {
+    const s = stats(p);
+    const card = document.createElement('div');
+    card.className = 'card';
+    // Serve buttons 0-3, plus "A" (ace) which records a 4. Aces count toward the average.
+    const serveHTML = `<div class="btns serve-btns">${[0,1,2,3,4].map(v =>
+      `<button${v === 4 ? ' class="ace"' : ''} onclick="add(${id},{t:'S',v:${v}})">${v === 4 ? 'A' : v}</button>`).join('')}</div>`;
+    card.innerHTML = `
+      <input class="name" value="${p.name.replace(/"/g, '&quot;')}">
+      <div class="quads">
+        <div class="quad"><div class="qhead">Serve</div>${serveHTML}
+          <div class="qsum">${s.serves.length} - ${s.serves.filter(v => v === 4).length}A - ${avg(s.serves)} avg</div></div>
+        <div class="quad"><div class="qhead">Serve receive</div>
+          <div class="btns">${[0,1,2,3].map(v => `<button class="r${v}" onclick="add(${id},{t:'R',v:${v}})">${v}</button>`).join('')}</div>
+          <div class="qsum">${s.recvs.length} · avg ${avg(s.recvs)}</div></div>
+        <div class="quad"><div class="qhead">Attack</div>
+          <div class="btns">${['A','K','E'].map(t => `<button class="b${t}" onclick="add(${id},{t:'${t}'})">${t}</button>`).join('')}</div>
+          <div class="qsum">A ${s.A} · K ${s.K} · E ${s.E} · ${hitPct(s)}</div></div>
+        <div class="quad"><div class="qhead">Defense</div>
+          <div class="btns">${['D','DE'].map(t => `<button class="b${t}" onclick="add(${id},{t:'${t}'})">${t}</button>`).join('')}</div>
+          <div class="qsum">D ${s.D} · DE ${s.DE}</div></div>
+      </div>
+      <div class="extras">${EXTRAS.map(([t, label]) => `<button onclick="add(${id},{t:'${t}'})">${label}</button>`).join('')}</div>
+      <div class="extras-sum">${EXTRAS.map(([t, label]) => `${label} ${s[t]}`).join(' · ')}</div>
+      <button class="undo" ${p.log.length ? '' : 'disabled'} onclick="undo(${id})">↶ Undo</button>`;
+    card.querySelector('.name').onchange = e => { p.name = e.target.value; save(); };
+    grid.appendChild(card);
+  });
+}
+
+// ----- Score: a log of points, 'us' or 'them'; undo removes the last one -----
+let scoreLog = [];
+try { scoreLog = JSON.parse(localStorage.getItem(KEY + ':score')) || []; } catch (e) { scoreLog = []; }
+const scoreNow = () => ({ us: scoreLog.filter(x => x === 'us').length, them: scoreLog.filter(x => x === 'them').length });
+function saveScore() { try { localStorage.setItem(KEY + ':score', JSON.stringify(scoreLog)); } catch (e) {} renderScore(); }
+function addPoint(who) { scoreLog.push(who); saveScore(); }
+function undoPoint() { scoreLog.pop(); saveScore(); }
+function renderScore() {
+  const sc = scoreNow();
+  document.getElementById('lblUs').textContent = TEAM_NAME;
+  document.getElementById('lblThem').textContent = document.getElementById('opponent').value.trim() || 'Opponent';
+  document.getElementById('ptsUs').textContent = sc.us;
+  document.getElementById('ptsThem').textContent = sc.them;
+  document.getElementById('undoPt').disabled = scoreLog.length === 0;
+}
+
+function resetStats() {
+  if (!confirm('Clear all stats and the score? Player names are kept.')) return;
+  players.forEach(p => p.log = []);
+  scoreLog = [];
+  save(); saveScore(); render();
+}
+
+function download(text, type, ext, name) {
+  const url = URL.createObjectURL(new Blob([text], { type }));
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `${name}.${ext}`;
+  document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url);
+}
+const when = () => `${document.getElementById('date').value} ${document.getElementById('time').value}`;
+
+// Count arrays used in the export (index = value / position):
+//   serveTotals [0,1,2,3,4] · receiveTotals [0,1,2,3] · attackTotals [A,K,E] · defenseTotals [D,DE]
+//   otherTotals [Assist,Net,BHE,BA,BK,BE]
+function totalsFor(list) {
+  const t = { serveTotals: [0,0,0,0,0], receiveTotals: [0,0,0,0], attackTotals: [0,0,0], defenseTotals: [0,0], otherTotals: [0,0,0,0,0,0] };
+  for (const e of list) {
+    if (e.t === 'S') t.serveTotals[e.v]++;
+    else if (e.t === 'R') t.receiveTotals[e.v]++;
+    else if (e.t === 'A') t.attackTotals[0]++;
+    else if (e.t === 'K') t.attackTotals[1]++;
+    else if (e.t === 'E') t.attackTotals[2]++;
+    else if (e.t === 'D') t.defenseTotals[0]++;
+    else if (e.t === 'DE') t.defenseTotals[1]++;
+    else { const i = EXTRAS.findIndex(x => x[0] === e.t); if (i >= 0) t.otherTotals[i]++; }
+  }
+  return t;
+}
+const weighted = c => { const n = c.reduce((x, y) => x + y, 0); return n ? +(c.reduce((x, y, v) => x + v * y, 0) / n).toFixed(2) : 0; };
+const hitting = ([A, K, E]) => A ? +((K - E) / A).toFixed(3) : 0;
+function derived(t) {
+  return { serveAverage: weighted(t.serveTotals), receiveAverage: weighted(t.receiveTotals), hittingPct: hitting(t.attackTotals) };
+}
+
+function exportJSON() {
+  const sc = scoreNow();
+  const all = totalsFor(players.flatMap(p => p.log));
+  const data = {
+    match: {
+      team: TEAM_NAME,
+      opponent: document.getElementById('opponent').value,
+      event: eventBox.value,
+      dateTime: when(),
+      set: setBox.value ? Number(setBox.value) : null,
+      score: { team: sc.us, opponent: sc.them, pointSequence: scoreLog },
+      totals: { ...all, ...derived(all) },
+      key: { serveTotals: 'counts of serve values 0-4', receiveTotals: 'counts of serve-receive ratings 0-3',
+             attackTotals: '[attempts, kills, errors]', defenseTotals: '[digs, dig errors]',
+             otherTotals: '[Assist, Net, BHE, BA, BK, BE]' }
+    },
+    players: players.map(p => { const t = totalsFor(p.log); return { name: p.name, ...t, ...derived(t) }; })
+  };
+  // File name: event - set N - date time (unsafe filename characters removed)
+  const clean = t => t.replace(/[\\/:*?"<>|]/g, '').trim();
+  const name = [clean(eventBox.value) || 'Match', setBox.value ? 'Set ' + clean(setBox.value) : '',
+                `${document.getElementById('date').value} ${document.getElementById('time').value.replace(':', '-')}`]
+               .filter(Boolean).join(' - ');
+  download(JSON.stringify(data, null, 2), 'application/json', 'json', name);
+}
+
+document.getElementById('teamName').textContent = TEAM_NAME;
+document.title = TEAM_NAME + ' Volleyball Match Stats';
+
+// Remember the set number between page loads
+const setBox = document.getElementById('setNum');
+try { setBox.value = localStorage.getItem(KEY + ':set') || ''; } catch (e) {}
+setBox.oninput = () => { try { localStorage.setItem(KEY + ':set', setBox.value); } catch (e) {} };
+
+// Remember the event name between page loads
+const eventBox = document.getElementById('event');
+try { eventBox.value = localStorage.getItem(KEY + ':event') || ''; } catch (e) {}
+eventBox.oninput = () => { try { localStorage.setItem(KEY + ':event', eventBox.value); } catch (e) {} };
+
+document.getElementById('opponent').addEventListener('input', renderScore);
+
+load(); render(); renderScore();
+</script>
+</body>
+</html>

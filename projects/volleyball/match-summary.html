@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Volleyball Match Summary</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 12px; font-family: system-ui, sans-serif; background: #eef1f6; color: #1d2430; }
+  h1 { margin: 0 0 10px; font-size: 1.3rem; }
+  h2 { margin: 18px 0 6px; font-size: 1.05rem; }
+  .picker { background: #fff; border-radius: 10px; padding: 12px; box-shadow: 0 1px 3px rgba(0,0,0,.15); }
+  .picker input { font-size: 1rem; }
+  .hint { color: #6b7585; font-size: .85rem; margin-top: 6px; }
+  .error { color: #b91c1c; margin-top: 8px; white-space: pre-line; }
+  .wrap { overflow-x: auto; background: #fff; border-radius: 10px; box-shadow: 0 1px 3px rgba(0,0,0,.15); }
+  table { border-collapse: collapse; width: 100%; font-size: .9rem; }
+  th, td { padding: 6px 8px; text-align: right; white-space: nowrap; border-bottom: 1px solid #e3e6eb; }
+  th:first-child, td:first-child { text-align: left; position: sticky; left: 0; background: inherit; }
+  thead th { background: #f3f5f9; font-size: .75rem; text-transform: uppercase; letter-spacing: .03em; color: #4b5563; }
+  thead tr.groups th { text-align: center; border-bottom: 0; border-left: 1px solid #d5dae3; }
+  tbody tr { background: #fff; }
+  tbody tr:nth-child(even) { background: #fafbfd; }
+  tr.overall td { font-weight: 700; background: #e0e7ff; border-top: 2px solid #2563eb; }
+  td.grp, th.grp { border-left: 1px solid #d5dae3; }
+  .dist { color: #6b7585; font-size: .8rem; }
+  .sets td:first-child { font-weight: 600; }
+  th.sortable { cursor: pointer; color: #2563eb; user-select: none; }
+  th.sortable:hover { text-decoration: underline; }
+  [hidden] { display: none; }
+</style>
+</head>
+<body>
+<h1>Volleyball Match Summary</h1>
+
+<div class="picker">
+  <input type="file" id="file" accept=".json,application/json" multiple>
+  <div class="hint">Choose one or more JSON files exported from Match Stats. Pick several to combine sets; players are matched by name.</div>
+  <div class="error" id="error"></div>
+</div>
+
+<div id="results" hidden>
+  <h2>Sets loaded</h2>
+  <div class="wrap"><table class="sets" id="sets"></table></div>
+  <h2>Players</h2>
+  <div class="wrap"><table id="players"></table></div>
+</div>
+
+<script>
+// Count arrays in the export: serveTotals [0..4], receiveTotals [0..3],
+// attackTotals [A,K,E], defenseTotals [D,DE], otherTotals [Assist,Net,BHE,BA,BK,BE]
+const ARRAYS = { serveTotals: 5, receiveTotals: 4, attackTotals: 3, defenseTotals: 2, otherTotals: 6 };
+const emptyTotals = () => Object.fromEntries(Object.entries(ARRAYS).map(([k, n]) => [k, new Array(n).fill(0)]));
+
+function addInto(target, src) {
+  for (const [k, n] of Object.entries(ARRAYS)) {
+    const a = Array.isArray(src[k]) ? src[k] : [];
+    for (let i = 0; i < n; i++) target[k][i] += Number(a[i]) || 0;
+  }
+}
+
+// files: array of parsed JSON objects. Returns { sets, players: Map(name -> totals), overall }
+function aggregate(files) {
+  const players = new Map();
+  const overall = emptyTotals();
+  const sets = [];
+  for (const f of files) {
+    if (!f || !f.match || !Array.isArray(f.players)) throw new Error('not a Match Stats export');
+    sets.push(f.match);
+    for (const p of f.players) {
+      if (!players.has(p.name)) players.set(p.name, emptyTotals());
+      addInto(players.get(p.name), p);
+      addInto(overall, p);
+    }
+  }
+  return { sets, players, overall };
+}
+
+const sum = a => a.reduce((x, y) => x + y, 0);
+const wavg = c => { const n = sum(c); return n ? (c.reduce((x, y, v) => x + v * y, 0) / n).toFixed(2) : '–'; };
+const hit = ([A, K, E]) => A ? ((K - E) / A).toFixed(3) : '–';
+
+// Sortable columns: numeric value per player (null = no data, always sorts last)
+const num = (n, fn) => { const v = fn(); return v === '–' ? null : Number(v); };
+const SORTS = {
+  serveAvg: t => num(0, () => wavg(t.serveTotals)),
+  receiveAvg: t => num(0, () => wavg(t.receiveTotals)),
+  hitPct: t => num(0, () => hit(t.attackTotals)),
+};
+let lastResult = null;
+let sortState = { key: null, dir: -1 }; // dir -1 = highest first
+
+function sortedPlayers(result) {
+  const rows = [...result.players];
+  if (!sortState.key) return rows;
+  const val = SORTS[sortState.key];
+  return rows.sort((a, b) => {
+    const x = val(a[1]), y = val(b[1]);
+    if (x === null && y === null) return 0;
+    if (x === null) return 1;
+    if (y === null) return -1;
+    return (x - y) * sortState.dir;
+  });
+}
+function sortTh(key, label, cls) {
+  const arrow = sortState.key === key ? (sortState.dir < 0 ? ' ▼' : ' ▲') : '';
+  return `<th class="sortable ${cls || ''}" data-sort="${key}" title="Sort by ${label}">${label}${arrow}</th>`;
+}
+
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+function playerRow(label, t, cls) {
+  const [A, K, E] = t.attackTotals, [D, DE] = t.defenseTotals, o = t.otherTotals;
+  return `<tr class="${cls || ''}"><td>${esc(label)}</td>
+    <td class="grp">${sum(t.serveTotals)}</td><td>${wavg(t.serveTotals)}</td><td class="dist">${t.serveTotals.join('·')}</td>
+    <td class="grp">${sum(t.receiveTotals)}</td><td>${wavg(t.receiveTotals)}</td><td class="dist">${t.receiveTotals.join('·')}</td>
+    <td class="grp">${A}</td><td>${K}</td><td>${E}</td><td>${hit(t.attackTotals)}</td>
+    <td class="grp">${D}</td><td>${DE}</td>
+    <td class="grp">${o.join('</td><td>')}</td></tr>`;
+}
+
+function render(result) {
+  lastResult = result;
+  // Sets table
+  let st = result.sets.map(m => {
+    const sc = m.score || {};
+    return `<tr><td>${esc(m.event || '(no event)')}</td><td>${esc(m.set ?? '')}</td><td>${esc(m.dateTime)}</td>
+      <td>${esc(m.opponent)}</td><td>${esc(sc.team ?? 0)} – ${esc(sc.opponent ?? 0)}</td></tr>`;
+  }).join('');
+  const pf = result.sets.reduce((x, m) => x + (Number(m.score?.team) || 0), 0);
+  const pa = result.sets.reduce((x, m) => x + (Number(m.score?.opponent) || 0), 0);
+  const won = result.sets.filter(m => (m.score?.team || 0) > (m.score?.opponent || 0)).length;
+  st += `<tr class="overall"><td>Total</td><td>${result.sets.length} set(s)</td><td></td><td>Sets won ${won}</td><td>${pf} – ${pa}</td></tr>`;
+  document.getElementById('sets').innerHTML =
+    '<thead><tr><th>Event</th><th>Set</th><th>Date / time</th><th>Opponent</th><th>Score (us – them)</th></tr></thead><tbody>' + st + '</tbody>';
+
+  // Players table
+  const head = `<thead>
+    <tr class="groups"><th></th><th colspan="3">Serve</th><th colspan="3">Serve receive</th><th colspan="4">Attack</th><th colspan="2">Defense</th><th colspan="6">Other</th></tr>
+    <tr><th>Player</th><th class="grp">N</th>${sortTh('serveAvg', 'Avg')}<th>0·1·2·3·A</th>
+      <th class="grp">N</th>${sortTh('receiveAvg', 'Avg')}<th>0·1·2·3</th>
+      <th class="grp">A</th><th>K</th><th>E</th>${sortTh('hitPct', 'Hit%')}
+      <th class="grp">D</th><th>DE</th>
+      <th class="grp">Assist</th><th>Net</th><th>BHE</th><th>BA</th><th>BK</th><th>BE</th></tr></thead>`;
+  let body = '';
+  for (const [name, t] of sortedPlayers(result)) body += playerRow(name, t);
+  body += playerRow('Team overall', result.overall, 'overall');
+  document.getElementById('players').innerHTML = head + '<tbody>' + body + '</tbody>';
+  document.querySelectorAll('#players th.sortable').forEach(th => th.addEventListener('click', () => {
+    const key = th.dataset.sort;
+    sortState = { key, dir: sortState.key === key ? -sortState.dir : -1 };
+    render(lastResult);
+  }));
+  document.getElementById('results').hidden = false;
+}
+
+async function onFiles(ev) {
+  const err = document.getElementById('error');
+  err.textContent = '';
+  const list = [...ev.target.files];
+  if (!list.length) return;
+  const parsed = [], problems = [];
+  for (const f of list) {
+    try { parsed.push(JSON.parse(await f.text())); }
+    catch (e) { problems.push(`${f.name}: not valid JSON`); }
+  }
+  let result = null;
+  try { result = aggregate(parsed); } catch (e) { problems.push(e.message); }
+  if (problems.length) err.textContent = problems.join('\n');
+  if (result) render(result);
+  else document.getElementById('results').hidden = true;
+}
+document.getElementById('file').addEventListener('change', onFiles);
+</script>
+</body>
+</html>
