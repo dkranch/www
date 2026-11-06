@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Passing Ratings Report</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  :root { --bg:#f5f6f8; --card:#fff; --text:#1d2430; --muted:#6b7585; --accent:#2563eb; --grid:#e3e6eb; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#12161c; --card:#1b212a; --text:#e6e9ee; --muted:#93a0b2; --accent:#60a5fa; --grid:#2a323d; }
+  }
+  body { margin:0; padding:16px; background:var(--bg); color:var(--text); font-family:system-ui,sans-serif; }
+  h1 { margin:0 0 4px; font-size:1.5rem; }
+  .sub { color:var(--muted); margin-bottom:16px; }
+  .card { background:var(--card); border-radius:10px; padding:16px; box-shadow:0 1px 3px rgba(0,0,0,.12); }
+  .team { margin-bottom:20px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:16px; }
+  .card h2 { margin:0 0 2px; font-size:1.05rem; }
+  .meta b { color:var(--text); font-size:1.05rem; }
+  .meta { color:var(--muted); font-size:.85rem; margin-bottom:8px; }
+  .chartbox { position:relative; height:220px; }
+  .team .chartbox { height:300px; }
+</style>
+</head>
+<body>
+<h1>Passing Ratings Report</h1>
+<div class="sub" id="sub"></div>
+<div class="card team">
+  <h2>Team overall</h2>
+  <div class="meta">Attempt-weighted average per session (0–3 scale)</div>
+  <div class="chartbox"><canvas id="team"></canvas></div>
+</div>
+<div class="grid" id="players"></div>
+<script>
+const DATA = {"sessions": ["2026-11-04 17:25"], "players": {"Colette": {"ratings": [2.33], "attempts": [6], "season_avg": 2.33}, "Lucia": {"ratings": [2.0], "attempts": [5], "season_avg": 2.0}, "Mya": {"ratings": [1.67], "attempts": [6], "season_avg": 1.67}, "Divon": {"ratings": [1.63], "attempts": [8], "season_avg": 1.63}, "Montana": {"ratings": [1.6], "attempts": [5], "season_avg": 1.6}, "Zoe": {"ratings": [1.43], "attempts": [7], "season_avg": 1.43}, "Carsyn": {"ratings": [1.0], "attempts": [4], "season_avg": 1.0}, "Rikki": {"ratings": [0.75], "attempts": [4], "season_avg": 0.75}, "Maddie": {"ratings": [0.4], "attempts": [5], "season_avg": 0.4}, "Josie": {"ratings": [0.0], "attempts": [1], "season_avg": 0.0}, "Lexi": {"ratings": [null], "attempts": [0], "season_avg": null}, "Ava": {"ratings": [null], "attempts": [0], "season_avg": null}}, "team": {"ratings": [1.45], "attempts": [51]}};
+const css = getComputedStyle(document.documentElement);
+const color = n => css.getPropertyValue(n).trim();
+
+function line(canvas, label, ratings, attempts) {
+  new Chart(canvas, {
+    type: 'line',
+    data: { labels: DATA.sessions, datasets: [{
+      label, data: ratings, borderColor: color('--accent'), backgroundColor: color('--accent'),
+      tension: .2, pointRadius: 6, borderWidth: 4, spanGaps: true }] },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false },
+        tooltip: { callbacks: { afterLabel: c => 'Attempts: ' + attempts[c.dataIndex] } } },
+      scales: {
+        y: { min: 0, max: 3, ticks: { stepSize: 1, color: color('--muted') }, grid: { color: color('--grid') } },
+        x: { ticks: { color: color('--muted') }, grid: { color: color('--grid') } } }
+    }
+  });
+}
+
+line(document.getElementById('team'), 'Team', DATA.team.ratings, DATA.team.attempts);
+
+const container = document.getElementById('players');
+let rank = 0;
+for (const [name, p] of Object.entries(DATA.players)) {
+  rank++;
+  const total = p.attempts.reduce((s, x) => s + x, 0);
+  const card = document.createElement('div');
+  card.className = 'card';
+  card.innerHTML = `<h2>${rank}. ${name}</h2><div class="meta">Season average <b>${p.season_avg === null ? '–' : p.season_avg.toFixed(2)}</b> · ${total} attempts</div>
+    <div class="chartbox"><canvas></canvas></div>`;
+  container.appendChild(card);
+  line(card.querySelector('canvas'), name, p.ratings, p.attempts);
+}
+document.getElementById('sub').textContent =
+  `${Object.keys(DATA.players).length} players · ${DATA.sessions.length} sessions`;
+</script>
+</body>
+</html>
