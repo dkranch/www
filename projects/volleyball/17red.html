@@ -609,6 +609,14 @@
             }
         }
 
+        // Base name of this page's file (e.g. "14black"), used to name exports. Follows renames.
+        function getBaseName(fallback) {
+            try {
+                const f = decodeURIComponent(location.pathname.split('/').pop() || '');
+                return f.replace(/\.[^.]*$/, '') || fallback;
+            } catch (e) { return fallback; }
+        }
+
         function saveToFile() {
             const date = document.getElementById('sessionDate').value;
             const goal = document.getElementById('sessionGoal').value;
@@ -638,7 +646,7 @@
             const url = URL.createObjectURL(blob);
             const a = document.createElement('a');
             a.href = url;
-            a.download = `volleyball-stats-${timestamp}.txt`;
+            a.download = `${getBaseName("volleyball-stats")}-${timestamp}.txt`;
             document.body.appendChild(a);
             a.click();
             document.body.removeChild(a);
@@ -665,7 +673,7 @@
             const url = URL.createObjectURL(blob);
             const a = document.createElement('a');
             a.href = url;
-            a.download = `volleyball-stats-${timestamp}.csv`;
+            a.download = `${getBaseName("volleyball-stats")}-${timestamp}.csv`;
             document.body.appendChild(a);
             a.click();
             document.body.removeChild(a);
@@ -728,7 +736,7 @@
             const url = URL.createObjectURL(blob);
             const a = document.createElement('a');
             a.href = url;
-            a.download = `volleyball-stats-${timestamp}.json`;
+            a.download = `${getBaseName("volleyball-stats")}-${timestamp}.json`;
             document.body.appendChild(a);
             a.click();
             document.body.removeChild(a);
