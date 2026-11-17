@@ -6,17 +6,17 @@
 <title>Volleyball Match Stats</title>
 <style>
   * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
-  body { margin: 0; padding: 12px; font-family: system-ui, sans-serif; background: #eef1f6; color: #1d2430; }
+  body { margin: 0; padding: 12px; padding-top: 56px; /* extra room so the iPad status bar/browser chrome doesn't cover the score buttons */ font-family: system-ui, sans-serif; background: #eef1f6; color: #1d2430; }
   h1 { margin: 0 0 8px; font-size: 1.3rem; }
-  .header { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px; margin-bottom: 8px; }
+  .header { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px; margin-bottom: 16px; }
   .header h1 { margin: 0; }
-  .score { display: flex; gap: 6px; align-items: stretch; }
-  .score button { border: 0; border-radius: 8px; cursor: pointer; color: #fff; font-weight: 700; padding: 6px 14px; min-height: 52px; display: flex; flex-direction: column; align-items: center; justify-content: center; line-height: 1.1; }
-  .score .lbl { font-size: .75rem; font-weight: 600; max-width: 110px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .score .pts { font-size: 1.6rem; }
+  .toolbar .score { display: flex; gap: 6px; align-items: stretch; }
+  .toolbar .score button { border: 0; border-radius: 8px; cursor: pointer; color: #fff; font-weight: 700; padding: 6px 14px; min-height: 52px; display: flex; flex-direction: column; align-items: center; justify-content: center; line-height: 1.1; }
+  .toolbar .score .lbl { font-size: .75rem; font-weight: 600; max-width: 110px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .toolbar .score .pts { font-size: 1.6rem; }
   #scoreUs { background: #2563eb; } #scoreThem { background: #b45309; }
-  .score .undo-pt { background: #fff; color: #1d2430; border: 1px solid #bcc3d0; font-size: .95rem; }
-  .score .undo-pt:disabled { opacity: .4; cursor: default; }
+  .toolbar .score .undo-pt { background: #fff; color: #1d2430; border: 1px solid #bcc3d0; font-size: .95rem; }
+  .toolbar .score .undo-pt:disabled { opacity: .4; cursor: default; }
   .toolbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 12px; }
   .toolbar input[type=date], .toolbar input[type=time], .toolbar input[type=text] { padding: 6px; font-size: 1rem; border: 1px solid #bcc3d0; border-radius: 6px; }
   .toolbar button { padding: 8px 14px; font-size: 1rem; border: 0; border-radius: 6px; background: #2563eb; color: #fff; cursor: pointer; }
@@ -48,15 +48,15 @@
 <body>
 <div class="header">
   <h1><span id="teamName"></span> Volleyball Match Stats</h1>
+</div>
+<div class="toolbar">
+  <input type="text" id="event" placeholder="Event name">
+  <input type="text" id="opponent" placeholder="Opponent / match">
   <div class="score">
     <button id="scoreUs" onclick="addPoint('us')"><span class="lbl" id="lblUs"></span><span class="pts" id="ptsUs">0</span></button>
     <button id="scoreThem" onclick="addPoint('them')"><span class="lbl" id="lblThem"></span><span class="pts" id="ptsThem">0</span></button>
     <button class="undo-pt" id="undoPt" onclick="undoPoint()">↶ Undo</button>
   </div>
-</div>
-<div class="toolbar">
-  <input type="text" id="event" placeholder="Event name">
-  <input type="text" id="opponent" placeholder="Opponent / match">
   <input type="date" id="date">
   <input type="time" id="time">
   <input type="number" id="setNum" min="1" placeholder="Set #" style="width:80px">
@@ -69,8 +69,8 @@
 // ===== EDIT ME: team setup =====
 const TEAM_NAME = '14 Black';
 const INITIAL_PLAYERS = [
-  'Lucia', 'Zoe', 'Ava', 'Lexi', 'Josie', 'Mya',
-  'Montana', 'Divon', 'Rikki', 'Carsyn', 'Collette', 'Maddie'
+  'Montana', 'Zoe', 'Rikki', 'Lucia', 'Josie', 'Ava',
+  'Carsyn', 'Divon', 'Mya', 'Lexi', 'Collette', 'Maddie'
 ];  // up to 12 names; any blank spots become "Player N"
 // If you change this list, the saved roster is rebuilt from it (stats are cleared).
 // ===============================
@@ -112,7 +112,8 @@ function stats(p) {
   return s;
 }
 const avg = (a, empty = '–') => a.length ? (a.reduce((x, y) => x + y, 0) / a.length).toFixed(2) : empty;
-const hitPct = (s, empty = '–') => s.A ? ((s.K - s.E) / s.A).toFixed(3) : empty;
+// Total attempts = A + K + E; hitting % = (K - E) / total attempts
+const hitPct = (s, empty = '–') => { const n = s.A + s.K + s.E; return n ? ((s.K - s.E) / n).toFixed(3) : empty; };
 
 function add(id, ev) { players[id].log.push(ev); save(); render(); }
 function undo(id) { players[id].log.pop(); save(); render(); }
@@ -137,7 +138,7 @@ function render() {
           <div class="qsum">${s.recvs.length} · avg ${avg(s.recvs)}</div></div>
         <div class="quad"><div class="qhead">Attack</div>
           <div class="btns">${['A','K','E'].map(t => `<button class="b${t}" onclick="add(${id},{t:'${t}'})">${t}</button>`).join('')}</div>
-          <div class="qsum">A ${s.A} · K ${s.K} · E ${s.E} · ${hitPct(s)}</div></div>
+          <div class="qsum">A ${s.A} · K ${s.K} · E ${s.E} · Tot ${s.A + s.K + s.E} · ${hitPct(s)}</div></div>
         <div class="quad"><div class="qhead">Defense</div>
           <div class="btns">${['D','DE'].map(t => `<button class="b${t}" onclick="add(${id},{t:'${t}'})">${t}</button>`).join('')}</div>
           <div class="qsum">D ${s.D} · DE ${s.DE}</div></div>
@@ -200,7 +201,7 @@ function totalsFor(list) {
   return t;
 }
 const weighted = c => { const n = c.reduce((x, y) => x + y, 0); return n ? +(c.reduce((x, y, v) => x + v * y, 0) / n).toFixed(2) : 0; };
-const hitting = ([A, K, E]) => A ? +((K - E) / A).toFixed(3) : 0;
+const hitting = ([A, K, E]) => { const n = A + K + E; return n ? +((K - E) / n).toFixed(3) : 0; };
 function derived(t) {
   return { serveAverage: weighted(t.serveTotals), receiveAverage: weighted(t.receiveTotals), hittingPct: hitting(t.attackTotals) };
 }
@@ -218,7 +219,7 @@ function exportJSON() {
       score: { team: sc.us, opponent: sc.them, pointSequence: scoreLog },
       totals: { ...all, ...derived(all) },
       key: { serveTotals: 'counts of serve values 0-4', receiveTotals: 'counts of serve-receive ratings 0-3',
-             attackTotals: '[attempts, kills, errors]', defenseTotals: '[digs, dig errors]',
+             attackTotals: '[attempts, kills, errors]; total attempts = A+K+E; hittingPct = (K-E)/total attempts', defenseTotals: '[digs, dig errors]',
              otherTotals: '[Assist, Net, BHE, BA, BK, BE]' }
     },
     players: players.map(p => { const t = totalsFor(p.log); return { name: p.name, ...t, ...derived(t) }; })
