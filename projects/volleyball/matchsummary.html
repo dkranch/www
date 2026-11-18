@@ -78,7 +78,8 @@ function aggregate(files) {
 
 const sum = a => a.reduce((x, y) => x + y, 0);
 const wavg = c => { const n = sum(c); return n ? (c.reduce((x, y, v) => x + v * y, 0) / n).toFixed(2) : '–'; };
-const hit = ([A, K, E]) => A ? ((K - E) / A).toFixed(3) : '–';
+// Total attempts = A + K + E; hitting % = (K - E) / total attempts
+const hit = ([A, K, E]) => { const n = A + K + E; return n ? ((K - E) / n).toFixed(3) : '–'; };
 
 // Sortable columns: numeric value per player (null = no data, always sorts last)
 const num = (n, fn) => { const v = fn(); return v === '–' ? null : Number(v); };
@@ -114,7 +115,7 @@ function playerRow(label, t, cls) {
   return `<tr class="${cls || ''}"><td>${esc(label)}</td>
     <td class="grp">${sum(t.serveTotals)}</td><td>${wavg(t.serveTotals)}</td><td class="dist">${t.serveTotals.join('·')}</td>
     <td class="grp">${sum(t.receiveTotals)}</td><td>${wavg(t.receiveTotals)}</td><td class="dist">${t.receiveTotals.join('·')}</td>
-    <td class="grp">${A}</td><td>${K}</td><td>${E}</td><td>${hit(t.attackTotals)}</td>
+    <td class="grp">${A}</td><td>${K}</td><td>${E}</td><td>${A + K + E}</td><td>${hit(t.attackTotals)}</td>
     <td class="grp">${D}</td><td>${DE}</td>
     <td class="grp">${o.join('</td><td>')}</td></tr>`;
 }
@@ -136,10 +137,10 @@ function render(result) {
 
   // Players table
   const head = `<thead>
-    <tr class="groups"><th></th><th colspan="3">Serve</th><th colspan="3">Serve receive</th><th colspan="4">Attack</th><th colspan="2">Defense</th><th colspan="6">Other</th></tr>
+    <tr class="groups"><th></th><th colspan="3">Serve</th><th colspan="3">Serve receive</th><th colspan="5">Attack</th><th colspan="2">Defense</th><th colspan="6">Other</th></tr>
     <tr><th>Player</th><th class="grp">N</th>${sortTh('serveAvg', 'Avg')}<th>0·1·2·3·A</th>
       <th class="grp">N</th>${sortTh('receiveAvg', 'Avg')}<th>0·1·2·3</th>
-      <th class="grp">A</th><th>K</th><th>E</th>${sortTh('hitPct', 'Hit%')}
+      <th class="grp">A</th><th>K</th><th>E</th><th>Tot</th>${sortTh('hitPct', 'Hit%')}
       <th class="grp">D</th><th>DE</th>
       <th class="grp">Assist</th><th>Net</th><th>BHE</th><th>BA</th><th>BK</th><th>BE</th></tr></thead>`;
   let body = '';
