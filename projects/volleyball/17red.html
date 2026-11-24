@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <title>Volleyball Stats Tracker</title>
@@ -446,7 +446,7 @@
         // Player data structure
         let players = [];
 
-        // ===== EDIT THIS LIST: starting player names for this team (12 players) =====
+        // ===== EDIT THIS LIST: starting player names for this team (up to 13 players) =====
         const DEFAULT_NAMES = [
             'Lucia', 'Divon', 'Carsyn',
             'Montana', 'Colette', 'Rikki',
@@ -455,7 +455,8 @@
         ];
         // ============================================================================
 
-        // Initialize 12 players (4 rows x 3 columns)
+        // Initialize 13 players (3 columns; the 13th sits alone in the lower left)
+        const PLAYER_COUNT = 13;
         // Storage key includes the page path so each copy (file name/folder) keeps separate data
         const STORE_KEY = location.pathname.replace(/index\.html?$/i, '') + '|volleyballPlayers';
 
@@ -463,8 +464,12 @@
             const savedPlayers = localStorage.getItem(STORE_KEY);
             if (savedPlayers) {
                 players = JSON.parse(savedPlayers);
+                // Add any missing players (e.g. data saved when there were only 12)
+                for (let i = players.length; i < PLAYER_COUNT; i++) {
+                    players.push({ id: i, name: DEFAULT_NAMES[i] || `Player ${i + 1}`, attempts: 0, totalScore: 0, ratings: [] });
+                }
             } else {
-                players = Array.from({ length: 12 }, (_, i) => ({
+                players = Array.from({ length: PLAYER_COUNT }, (_, i) => ({
                     id: i,
                     name: DEFAULT_NAMES[i] || `Player ${i + 1}`,
                     attempts: 0,

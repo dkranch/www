@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Volleyball Match Stats</title>
 <style>
   * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
@@ -47,7 +47,7 @@
 </head>
 <body>
 <div class="header">
-  <h1><span id="teamName"></span> Volleyball Match Stats</h1>
+  <h1><input type="text" id="teamName" placeholder="Team name" aria-label="Team name" style="font:inherit;color:inherit;background:transparent;border:0;border-bottom:1px dashed currentColor;width:9em;text-align:right"> Volleyball Match Stats</h1>
 </div>
 <div class="toolbar">
   <input type="text" id="event" placeholder="Event name">
@@ -67,11 +67,13 @@
 
 <script>
 // ===== EDIT ME: team setup =====
-const TEAM_NAME = '14 Black';
+const DEFAULT_TEAM_NAME = '14 Black';  // starting value; editable on the page (saved in the browser)
+let TEAM_NAME = DEFAULT_TEAM_NAME;
+try { TEAM_NAME = localStorage.getItem('volleyballMatchStats:team') || DEFAULT_TEAM_NAME; } catch (e) {}
 const INITIAL_PLAYERS = [
-  'Eliza', 'Ryan', 'Lulu', 'Hanifa', 'Lila', 'Mila',
-  'Gwen', 'Amelia', 'Ranya', 'Sabrina', 'Kennedy', 'Maddie'
-];  // up to 12 names; any blank spots become "Player N"
+  'Eliza', 'Amelia', 'Lulu', 'Hanifa', 'Kennedy', 'Sienna',
+  'Gwen', 'Ryan', 'Ranya', 'Sabrina', 'Lila', 'Mila'
+];  // up to 13 names; any blank spots become "Player N"
 // If you change this list, the saved roster is rebuilt from it (stats are cleared).
 // ===============================
 
@@ -91,8 +93,8 @@ function load() {
     // Reuse saved stats only if the INITIAL_PLAYERS list hasn't been edited since
     if (localStorage.getItem(KEY + ':roster') === ROSTER_SIG) players = JSON.parse(localStorage.getItem(KEY)) || [];
   } catch (e) { players = []; }
-  if (players.length !== 12) {
-    players = Array.from({length: 12}, (_, i) => ({ name: INITIAL_PLAYERS[i] || 'Player ' + (i + 1), log: [] }));
+  if (players.length !== 13) {
+    players = Array.from({length: 13}, (_, i) => ({ name: INITIAL_PLAYERS[i] || 'Player ' + (i + 1), log: [] }));
   }
 }
 function save() {
@@ -232,8 +234,15 @@ function exportJSON() {
   download(JSON.stringify(data, null, 2), 'application/json', 'json', name);
 }
 
-document.getElementById('teamName').textContent = TEAM_NAME;
+const teamBox = document.getElementById('teamName');
+teamBox.value = TEAM_NAME;
 document.title = TEAM_NAME + ' Volleyball Match Stats';
+teamBox.oninput = () => {
+  TEAM_NAME = teamBox.value.trim() || DEFAULT_TEAM_NAME;
+  document.title = TEAM_NAME + ' Volleyball Match Stats';
+  try { localStorage.setItem(KEY + ':team', teamBox.value.trim()); } catch (e) {}
+  renderScore();
+};
 
 // Remember the set number between page loads
 const setBox = document.getElementById('setNum');
